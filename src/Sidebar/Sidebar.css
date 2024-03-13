@@ -1,0 +1,10 @@
+.sidebar {
+    grid-area: s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    background-color: cadetblue;
+}
+
+li {
+    list-style-type: square;
+}
