@@ -1,4 +1,5 @@
 import './Sidebar.css';
+import links from '../data/articles.json';
 
 function Sidebar() {
     return (
@@ -9,7 +10,15 @@ function Sidebar() {
                 <li>3</li>
                 <li>4</li>
                 <li>5</li>
-           </ul>
+            </ul>
+            <nav>
+                <ul>
+                    {links.map(item =>
+                        <li>
+                            <a href={item.hlink}>{item.title}</a>
+                        </li>)}
+                </ul>
+            </nav>
             
             
         </div> 
