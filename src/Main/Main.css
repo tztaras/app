@@ -6,3 +6,17 @@
     background-color: aliceblue;
     /* text-align: center; */
 }
+
+section {
+    padding: 0 15px;
+}
+
+section:last-child {
+    padding-bottom: 15px;
+}
+
+
+/* .main>a {
+    padding-left: 8px;
+    color: rgb(0, 255, 64);
+} */
