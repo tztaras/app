@@ -8,7 +8,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(70, 42, 42);
     /* color: var(--cadmiumyellow); */
-    background: linear-gradient(900deg, rgb(52, 146, 223) 10%, cadetblue 90%);
+    background: linear-gradient(170deg, cadetblue 10%, rgb(50, 139, 212) 80%);
     /* background-color: brown; */
 }
 
@@ -24,8 +24,8 @@ body {
         'h h h'
         'm m s'
         'f f f';
-    row-gap: 1%;
-    column-gap: 1%;
+    row-gap: 10px;
+    column-gap: 10px;
 
 }
 
