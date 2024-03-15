@@ -7,6 +7,9 @@ function Main() {
     const m = [1, 2, 3, 4, 5];
     let c = { 'background': 'cadetblue' };
     let ab = 'aliceblue';
+    const f = { 'one': 'one-one', 'two': 'two-two' };
+    const f1 = Object.keys(f);
+    console.log(f1);
 
     return (
         <div className="main">
@@ -28,8 +31,14 @@ function Main() {
                 <div>{m.map(item => <b><i>{item + '[:////:]'}</i></b>)}</div>
                 
                 <h3>Стилі inline</h3>
-                <p style={c}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, rerum possimus, cupiditate nemo sunt et sed saepe aliquid quasi minima dolorem necessitatibus quos velit esse modi nobis vitae architecto maiores.</p>
-                <p style={{ color: ab, background:'cadetblue', textShadow: '0 0 3px whitesmoke', fontSize:'18px'}}  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, rerum possimus, cupiditate nemo sunt et sed saepe aliquid quasi minima dolorem necessitatibus quos velit esse modi nobis vitae architecto maiores.</p>
+                <p style={c}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p style={{ color: ab, background: 'cadetblue', textShadow: '0 0 3px whitesmoke', fontSize: '18px' }}  >Lorem ipsum dolor sit amet consectetur</p>
+                
+                <div>{Object.keys(f).map(item => ' ' + item + ' ' + f[item]) + ' '}</div>
+                
+                <ul>
+                    {f1.map(item => <li>{item + ': ' + f[item]};</li>)}
+                </ul>
 
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae est earum voluptatum voluptates nulla sequi facilis, ipsam explicabo obcaecati natus ratione fuga voluptatibus repellat incidunt, iure libero, cumque mollitia. Magni.
                 </p>
