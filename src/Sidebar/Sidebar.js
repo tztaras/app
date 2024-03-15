@@ -13,9 +13,9 @@ function Sidebar() {
             </ul>
             <nav>
                 <ul>
-                    {links.map(item =>
-                        <li>
-                            <a href={item.hlink}>{item.title}</a>
+                    {links.map(li2 =>
+                        <li key={li2}>
+                            <a href={li2.hlink}>{li2.title}</a>
                         </li>)}
                 </ul>
             </nav>

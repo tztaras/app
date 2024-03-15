@@ -28,16 +28,21 @@ function Main() {
                 <div>{m.map(item => item + '^')}</div>
                 
                 <h3>Методи массивів -  створення елементів </h3>
-                <div>{m.map(item => <b><i>{item + '[:////:]'}</i></b>)}</div>
+                <div>{m.map(item => <b key={item}><i>{item + '[:////:]'}</i></b>)}</div>
+
+                <p>{m.map(item => <span key={item}>{item} </span>)}</p>
+
+
                 
                 <h3>Стилі inline</h3>
                 <p style={c}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <p style={{ color: ab, background: 'cadetblue', textShadow: '0 0 3px whitesmoke', fontSize: '18px' }}  >Lorem ipsum dolor sit amet consectetur</p>
                 
+                
                 <div>{Object.keys(f).map(item => ' ' + item + ' ' + f[item]) + ' '}</div>
                 
                 <ul>
-                    {f1.map(item => <li>{item + ': ' + f[item]};</li>)}
+                    {f1.map(item => <li key={item}>{item + ': ' + f[item]};</li>)}
                 </ul>
 
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae est earum voluptatum voluptates nulla sequi facilis, ipsam explicabo obcaecati natus ratione fuga voluptatibus repellat incidunt, iure libero, cumque mollitia. Magni.
@@ -68,12 +73,13 @@ function Main() {
 
 
             </section>
+
             {/* {articles.map(item => <h2>{item.title}</h2>)} */}
-            {articles.map(item =>
-                <section>
-                    <h3>{item.title}</h3>
-                    <p>{item.body}</p>
-                    <a href={item.hlink}>{item.title}</a>
+            {articles.map(cont =>
+                <section key={cont}>
+                    <h3>{cont.title}</h3>
+                    <p>{cont.body}</p>
+                    <a data='qwerty' href={cont.hlink}>{cont.title}</a>
 
                 </section>)}
             
