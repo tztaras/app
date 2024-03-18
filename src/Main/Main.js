@@ -45,33 +45,7 @@ function Main() {
                     {f1.map(item => <li key={item}>{item + ': ' + f[item]};</li>)}
                 </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae est earum voluptatum voluptates nulla sequi facilis, ipsam explicabo obcaecati natus ratione fuga voluptatibus repellat incidunt, iure libero, cumque mollitia. Magni.
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae est earum voluptatum voluptates nulla sequi facilis, ipsam explicabo obcaecati natus ratione fuga voluptatibus repellat incidunt, iure libero, cumque mollitia. Magni.
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae est earum voluptatum voluptates nulla sequi facilis, ipsam explicabo obcaecati natus ratione fuga voluptatibus repellat incidunt, iure libero, cumque mollitia. Magni.
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae est earum voluptatum voluptates nulla sequi facilis, ipsam explicabo obcaecati natus ratione fuga voluptatibus repellat incidunt, iure libero, cumque mollitia. Magni.
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae est earum voluptatum voluptates nulla sequi facilis, ipsam explicabo obcaecati natus ratione fuga voluptatibus repellat incidunt, iure libero, cumque mollitia. Magni.
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae est earum voluptatum voluptates nulla sequi facilis, ipsam explicabo obcaecati natus ratione fuga voluptatibus repellat incidunt, iure libero, cumque mollitia. Magni.
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae est earum voluptatum voluptates nulla sequi facilis, ipsam explicabo obcaecati natus ratione fuga voluptatibus repellat incidunt, iure libero, cumque mollitia. Magni.
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae est earum voluptatum voluptates nulla sequi facilis, ipsam explicabo obcaecati natus ratione fuga voluptatibus repellat incidunt, iure libero, cumque mollitia. Magni.
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae est earum voluptatum voluptates nulla sequi facilis, ipsam explicabo obcaecati natus ratione fuga voluptatibus repellat incidunt, iure libero, cumque mollitia. Magni.
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae est earum voluptatum voluptates nulla sequi facilis, ipsam explicabo obcaecati natus ratione fuga voluptatibus repellat incidunt, iure libero, cumque mollitia. Magni.
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae est earum voluptatum voluptates nulla sequi facilis, ipsam explicabo obcaecati natus ratione fuga voluptatibus repellat incidunt, iure libero, cumque mollitia. Magni.
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae est earum voluptatum voluptates nulla sequi facilis, ipsam explicabo obcaecati natus ratione fuga voluptatibus repellat incidunt, iure libero, cumque mollitia. Magni.
-                </p>
-
-
-
+               
             </section>
 
             {/* {articles.map(item => <h2>{item.title}</h2>)} */}
