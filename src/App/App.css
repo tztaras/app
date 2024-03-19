@@ -4,9 +4,9 @@
 
 
 body {
-    height: fit-content;
-    min-height: 1000px;
-    /* height: max-content; */
+    /* height: fit-content; */
+    min-height: 903px;
+    /* height: min-content; */
     /* height: 100%; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(70, 42, 42);
