@@ -11,10 +11,11 @@ function Header() {
                     <img src="./img/rictus-erectus.png" alt="rictus-erectus" height='150px' />
             </div>
             <nav>
-                <li><a href='/main'>Main</a></li>
-                <li><a href='/users'>Users</a></li>
-                <li><a href='/about'>About</a></li>
-                
+                <ul>
+                    <li><a href='/main'>Main</a></li>
+                    <li><a href='/users'>Users</a></li>
+                    <li><a href='/about'>About</a></li>
+                </ul>
             </nav>
             
         </div>
