@@ -1,9 +1,13 @@
 import '../Main/Main.css';
+import './About.css';
 function About() {
     return (
         <>
-            <h1>ABOUT</h1>
-            
+            <div className='about'>
+                <section>
+                    <h1>ABOUT</h1>
+                </section>
+            </div>
         </>
     )
 }
