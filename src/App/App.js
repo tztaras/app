@@ -2,6 +2,7 @@ import Header from '../Header/Header';
 import Users from '../Users/Users';
 import UsersID from '../Users/UsersID';
 import About from '../About/About';
+// import About from '../About/About';
 import Main from '../Main/Main';
 import Sidebar from '../Sidebar/Sidebar';
 import Footer from '../Footer/Footer';
@@ -15,30 +16,28 @@ function App() {
     return (
         <div className='container'>
             <Header />
-            
+            {/* <Main/> */}
             <Router>
-                {/* <nav>
-                    <li><Link to='/'>Main</Link></li>
-                    <li><Link to='/about'>About</Link></li>
-                    <li><Link to='/users'>Users</Link></li>
-                   
-                </nav> */}
-                <Routes>
-                    <Route exact path="/" element= {<Main/>} > </Route>
-                    <Route path="/about" element={<About/>}></Route>
-                    <Route exact path="/users" element={<Users/>}></Route>
-                    <Route  path="/users/:userName" element={<UsersID/>}></Route>
-                    <Route path="*" element={<Error/>}></Route>
-                
+                  
+                    <Routes>
+                        <Route exact path="/" element= {<Main/>} > </Route>
+                        <Route path="/about" element={<About/>}></Route>
+                        <Route exact path="/users" element={<Users/>}></Route>
+                        <Route  path="/users/:userName" element={<UsersID/>}></Route>
+                        <Route path="*" element={<Error/>}></Route>
                     
-                
-                </Routes>
+                        
+                    
+                    </Routes>
 
-                <Sidebar/>
-                <Footer/>
+                    <Main/>
+                    <Sidebar/>
+                    <Footer/>
 
-            </Router>
+                </Router>
             
+                
+           
             
         </div>
     )
