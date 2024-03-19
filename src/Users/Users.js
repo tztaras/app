@@ -1,5 +1,6 @@
 
-import {useLocation} from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Users() {
     let url = useLocation();
@@ -10,12 +11,19 @@ function Users() {
             <ul>
                 {/* <li><a href="/users/ivanovskyi">Ivanovskyi</a></li>  */}
 
-                <li><a href={`${url.pathname}/ivanovskyi`} >Ivanovskyi</a></li>
-                <li><a href={`${url.pathname}/petrovskyi`} >Petrovskyi</a></li>
-                <li><a href={`${url.pathname}/dmytrovskyi`} >Dmytrovskyi</a></li>
+                
 
                 {/* <li><a href="/users/petrovskyi">Petrovskyi</a></li>
                 <li><a href="/users/dmytrovskyi">Dmytrovskyi</a></li> */}
+
+
+                 {/* SPA */}
+                {/* SPA */}
+                {/* SPA */}
+
+                <li><Link to={`${url.pathname}/ivanovskyi`} >Ivanovskyi</Link></li>
+                <li><Link to={`${url.pathname}/petrovskyi`} >Petrovskyi</Link></li>
+                <li><Link to={`${url.pathname}/dmytrovskyi`} >Dmytrovskyi</Link></li>
             </ul>
             
         </>

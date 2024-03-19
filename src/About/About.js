@@ -1,4 +1,4 @@
-
+import '../Main/Main.css';
 function About() {
     return (
         <>

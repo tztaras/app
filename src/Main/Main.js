@@ -21,16 +21,16 @@ function Main() {
 
                 <h3>Вивід массиву </h3>
                 <div>{m}</div>
-                <div>{m.join('^')}</div>
+                {/* <div>{m.join('^')}</div> */}
 
                 <h3>Методи массивів </h3>
-                <div>{m.map(item=>item)}</div>
-                <div>{m.map(item => item + '^')}</div>
+                {/* <div>{m.map(item=>item)}</div>
+                <div>{m.map(item => item + '^')}</div> */}
                 
                 <h3>Методи массивів -  створення елементів </h3>
-                <div>{m.map(item => <b key={item}><i>{item + '[:////:]'}</i></b>)}</div>
+                {/* <div>{m.map(item => <b key={item}><i>{item + '[:////:]'}</i></b>)}</div>
 
-                <p>{m.map(item => <span key={item}>{item} </span>)}</p>
+                <p>{m.map(item => <span key={item}>{item} </span>)}</p> */}
 
 
                 
@@ -39,16 +39,16 @@ function Main() {
                 <p style={{ color: ab, background: 'cadetblue', textShadow: '0 0 3px whitesmoke', fontSize: '18px' }}  >Lorem ipsum dolor sit amet consectetur</p>
                 
                 
-                <div>{Object.keys(f).map(item => ' ' + item + ' ' + f[item]) + ' '}</div>
+                {/* <div>{Object.keys(f).map(item => ' ' + item + ' ' + f[item]) + ' '}</div> */}
                 
-                <ul>
+                {/* <ul>
                     {f1.map(item => <li key={item}>{item + ': ' + f[item]};</li>)}
-                </ul>
+                </ul> */}
 
                
             </section>
 
-            {/* {articles.map(item => <h2>{item.title}</h2>)} */}
+            {/* {articles.map(item => <h2 key={item}>{item.title}</h2>)} */}
             {articles.map(cont =>
                 <section key={cont}>
                     <h3>{cont.title}</h3>
