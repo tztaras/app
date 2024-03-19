@@ -1,6 +1,6 @@
 
 import { useLocation } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Users() {
     let url = useLocation();
@@ -21,9 +21,9 @@ function Users() {
                 {/* SPA */}
                 {/* SPA */}
 
-                <li><Link to={`${url.pathname}/ivanovskyi`} >Ivanovskyi</Link></li>
-                <li><Link to={`${url.pathname}/petrovskyi`} >Petrovskyi</Link></li>
-                <li><Link to={`${url.pathname}/dmytrovskyi`} >Dmytrovskyi</Link></li>
+                <li><NavLink to={`${url.pathname}/ivanovskyi`} >Ivanovskyi</NavLink></li>
+                <li><NavLink to={`${url.pathname}/petrovskyi`} >Petrovskyi</NavLink></li>
+                <li><NavLink to={`${url.pathname}/dmytrovskyi`} >Dmytrovskyi</NavLink></li>
             </ul>
             
         </>
