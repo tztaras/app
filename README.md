@@ -1,3 +1,10 @@
+// [
+//     {
+//     "dogo-name":"Labrador Retriever",
+//     "dogo-descr":"Known for their friendly and outgoing nature, Labrador Retrievers are one of the most popular dog breeds worldwide. They are highly intelligent, versatile, and excel in various roles, including as family pets, service dogs, and search and rescue dogs."
+// }
+// ]
+
 JSX stands for JavaScript XML. It's a syntax extension for JavaScript often used with React, a popular JavaScript library for building user interfaces.
 
 JSX allows developers to write HTML-like code within JavaScript, making it easier to create and manage the structure of UI components. JSX elements look similar to HTML elements but are actually syntactic sugar for calls to React.createElement(). JSX gets compiled into regular JavaScript functions during the build process.

@@ -9,7 +9,7 @@ function Header() {
                 </div>
                 <div className="header-img">
                     <img src="./img/rictus-erectus.png" alt="rictus-erectus" height='150px' />
-            </div>
+               </div>
             {/* <nav>
                 <ul>
                     <li><a href='/main'>Main</a></li>

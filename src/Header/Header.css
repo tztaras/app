@@ -8,6 +8,11 @@
     background-color: aliceblue;
 }
 
+.header-content {
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
 .header-img {
     padding-top: 5px;
 }

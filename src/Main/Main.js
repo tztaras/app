@@ -49,13 +49,13 @@ function Main() {
             </section>
 
             {/* {articles.map(item => <h2 key={item}>{item.title}</h2>)} */}
-            {articles.map(cont =>
+            {/* {articles.map(cont =>
                 <section key={cont}>
                     <h3>{cont.title}</h3>
                     <p>{cont.body}</p>
                     <a data='qwerty' href={cont.hlink}>{cont.title}</a>
 
-                </section>)}
+                </section>)} */}
             
             
             
