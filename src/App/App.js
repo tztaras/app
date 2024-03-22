@@ -19,7 +19,7 @@ function App() {
                 <Router>
                     <Header />
                     <Sidebar/>
-                    {/* <Main /> */}
+                    <Main />
                                 <Routes>
                                     <Route exact path="/" element= {<Main/>} />
                                     <Route path="/about" element={<About/>}/>
