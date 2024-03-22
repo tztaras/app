@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 function Sidebar() {
     
-    let a = 33;
+    
     let cd = 'cadetblue';
     let textInput = React.createRef();
     let textOutput = React.createRef();
