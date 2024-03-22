@@ -28,9 +28,9 @@ function Main() {
                 <div>{m.map(item => item + '^')}</div> */}
                 
                 <h3>Методи массивів -  створення елементів </h3>
-                {/* <div>{m.map(item => <b key={item}><i>{item + '[:////:]'}</i></b>)}</div>
+                <div>{m.map(item => <b key={item}><i>{item + '[:////:]'}</i></b>)}</div>
 
-                <p>{m.map(item => <span key={item}>{item} </span>)}</p> */}
+                <p>{m.map(item => <span key={item}>{item} </span>)}</p>
 
 
                 
@@ -49,13 +49,13 @@ function Main() {
             </section>
 
             {/* {articles.map(item => <h2 key={item}>{item.title}</h2>)} */}
-            {/* {articles.map(cont =>
+            {articles.map(cont =>
                 <section key={cont}>
                     <h3>{cont.title}</h3>
                     <p>{cont.body}</p>
                     <a data='qwerty' href={cont.hlink}>{cont.title}</a>
 
-                </section>)} */}
+                </section>)}
             
             
             
