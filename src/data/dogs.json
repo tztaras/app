@@ -10,6 +10,54 @@
         "title":"German Shepherd",
         "description":"Renowned for their loyalty, intelligence, and versatility, German Shepherds are commonly used as police, military, and service dogs. They are highly trainable and protective, making them excellent companions and guardians.",
         "picture":"https://images.ctfassets.net/440y9b545yd9/53KkmFPEBEsbxCzTDjrDmm/5bccce4f47e5f1c68ae1dabdd8db1293/German-Shepherd850.jpg"
+    },
+    {
+        "id":"3",
+        "title":"Golden Retriever",
+        "description":"Golden Retrievers are beloved for their gentle temperament, intelligence, and affectionate nature. They are well-suited as family pets and are often used as therapy and assistance dogs due to their calm demeanor and eagerness to please.",
+        "picture":"https://i.shgcdn.com/148dc4ae-078b-4962-a7ba-70b75be8df4e/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+    },
+    {
+        "id":"4",
+        "title":"Bulldog",
+        "description":"Bulldogs are characterized by their muscular build, distinctive wrinkled face, and determined expression. Despite their tough appearance, they are known for their gentle disposition and are affectionate companions, particularly with children.",
+        "picture":"https://www.bil-jac.com/media/y4rnf1qk/breed-history-where-did-bulldogs-come-from.jpg?anchor=center&mode=crop&width=1024&height=512&format=webp&quality=70"
+    },
+    {
+        "id":"5",
+        "title":"Poodle",
+        "description":"Poodles are renowned for their intelligence, elegance, and hypoallergenic coat. They come in three sizes—standard, miniature, and toy—and are highly trainable, making them excel in various dog sports and as family pets.",
+        "picture":"https://cdn.britannica.com/39/233239-050-50C0C3C5/standard-poodle-dog.jpg"
+    },
+    {
+        "id":"6",
+        "title":"Beagle",
+        "description":"Beagles are known for their keen sense of smell, friendly demeanor, and playful nature. They are often employed as scent detection dogs and make excellent family pets due to their sociable and affectionate personality.",
+        "picture":"https://cdn.britannica.com/80/29280-050-A3A13277/Beagles-pets.jpg"
+    },
+    {
+        "id":"7",
+        "title":"Siberian Husky",
+        "description":"Siberian Huskies are recognized for their striking appearance, including their thick double coat and distinctive markings. They are energetic, independent-minded dogs known for their endurance and were originally bred as sled dogs.",
+        "picture":"https://www.dogster.com/wp-content/uploads/2024/01/siberian-husky-dog-standing-on-grass_Edalin-Photograhy_Shutterstock.jpeg"
+    },
+    {
+        "id":"8",
+        "title":"Boxer",
+        "description":"Siberian Huskies are recognized for their striking appearance, including their thick double coat and distinctive markings. They are energetic, independent-minded dogs known for their endurance and were originally bred as sled dogs.",
+        "picture":"https://cdn.britannica.com/46/233846-050-8D30A43B/Boxer-dog.jpg"
+    },
+    {
+        "id":"9",
+        "title":"Dachshund",
+        "description":"Dachshunds, also known as 'wiener dogs' or 'sausage dogs', are characterized by their long body and short legs. They are spirited, courageous dogs with a strong hunting instinct, originally bred for hunting small game such as badgers.",
+        "picture":"https://www.thesprucepets.com/thmb/8UgAnzf_7o7i7qPPr528XtM0IW8=/2121x0/filters:no_upscale():strip_icc()/GettyImages-839279536-313d30c290584bc0a207bc6243263bd4.jpg"
+    },
+    {
+        "id":"10",
+        "title":"Dachshund",
+        "description":"Shih Tzus are small dogs with a luxurious coat that requires regular grooming. They are affectionate, outgoing, and playful companions, often forming strong bonds with their families and enjoying a life of pampering and attention.",
+        "picture":"https://www.forbes.com/advisor/wp-content/uploads/2023/11/shih-tzu-temperament.jpeg-900x510.jpg"
     }
 
 
