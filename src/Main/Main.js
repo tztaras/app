@@ -50,7 +50,7 @@ function Main() {
 
             {/* {articles.map(item => <h2 key={item}>{item.title}</h2>)} */}
             {articles.map(cont =>
-                <section key={cont}>
+                <section key={cont.id}>
                     <h3>{cont.title}</h3>
                     <p>{cont.body}</p>
                     <a data='qwerty' href={cont.hlink}>{cont.title}</a>

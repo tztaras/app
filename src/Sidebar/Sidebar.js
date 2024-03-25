@@ -5,6 +5,7 @@ import { useState } from 'react';
 
 function Sidebar() {
     
+    // console.log(Number.MAX_SAFE_INTEGER);
     
     let cd = 'cadetblue';
     let textInput = React.createRef();
@@ -61,12 +62,12 @@ function Sidebar() {
             </section>
 
             <nav>
-                {/* <ul>
-                    {links.map(li2 =>
-                        <li key={li2}>
-                            <a href={li2.hlink}>{li2.title}</a>
+                <ul>
+                    {links.map(item =>
+                        <li key={item.id}>
+                            <a href={item.hlink}>{item.title}</a>
                         </li>)}
-                </ul> */}
+                </ul>
             </nav>
             
             

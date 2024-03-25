@@ -1,15 +1,18 @@
 [
     {
+        "id":"1",
         "title":"New site, new domain, new homepage",
         "body":"First, a little bit of housekeeping. To celebrate the launch of the new docs and, more importantly, to clearly separate the old and the new content, we have moved to the shorter react.dev domain. The old reactjs.org domain will now redirect here. The old React docs are now archived at legacy.reactjs.org. All existing links to the old content will automatically redirect there to avoid “breaking the web”, but the legacy site will not get many more updates. Believe it or not, React will soon be ten years old. In JavaScript years, it is like a whole century! We have refreshed the React homepage to reflect why we think React is a great way to create user interfaces today, and updated the getting started guides to more prominently mention modern React-based frameworks. If you have not seen the new homepage yet, check it out!",
         "hlink":"https://react.dev/blog/2023/03/16/introducing-react-dev"
     },
     {
+        "id":"2",
         "title":"JavaScript (JS)",
         "body":"JavaScript (JS) — динамічна, об'єктно-орієнтована[5] прототипна мова програмування. Реалізація стандарту ECMAScript. Найчастіше використовується для створення сценарії вебсторінок, що надає можливість на боці клієнта (пристрої кінцевого користувача) взаємодіяти з користувачем, керувати браузером, асинхронно обмінюватися даними з сервером, змінювати структуру та зовнішній вигляд вебсторінки. JavaScript класифікують як прототипну (підмножина об'єктно-орієнтованої), скриптову мову програмування з динамічною типізацією. Окрім прототипної, JavaScript також частково підтримує інші парадигми програмування (імперативну та частково функціональну) і деякі відповідні архітектурні властивості, зокрема: динамічна та слабка типізація, автоматичне керування пам'яттю, прототипне наслідування, функції як об'єкти першого класу.",
         "hlink":"https://uk.wikipedia.org/wiki/JavaScript"
     },
     {
+        "id":"3",
         "title":"Pug",
         "body":"The general rendering process of Pug is simple. pug.compile() will compile the Pug source code into a JavaScript function that takes a data object (called “locals”) as an argument. Call that resultant function with your data, and voilà!, it will return a string of HTML rendered with your data. The compiled function can be re-used, and called with different sets of data.",
         "hlink":"https://pugjs.org/api/getting-started.html"
