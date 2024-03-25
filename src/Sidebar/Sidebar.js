@@ -1,9 +1,11 @@
 import './Sidebar.css';
 import links from '../data/articles.json';
+import dogs from '../data/dogs.json';
 import React from 'react';
 import { useState } from 'react';
 
 function Sidebar() {
+    console.log(dogs);
     
     // console.log(Number.MAX_SAFE_INTEGER);
     
@@ -66,6 +68,11 @@ function Sidebar() {
                     {links.map(item =>
                         <li key={item.id}>
                             <a href={item.hlink}>{item.title}</a>
+                        </li>)}
+                    {dogs.map(item =>
+                        <li key={item.id}>
+                            <a href={item.picture}>{item.title}</a>
+                            <p>{item.description}</p>
                         </li>)}
                 </ul>
             </nav>

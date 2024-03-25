@@ -1,34 +1,16 @@
 [
     {
+        "id":"1",
         "title":"Labrador Retriever",
         "description":"Known for their friendly and outgoing nature, Labrador Retrievers are one of the most popular dog breeds worldwide. They are highly intelligent, versatile, and excel in various roles, including as family pets, service dogs, and search and rescue dogs.",
         "picture":"https://www.dogster.com/wp-content/uploads/2024/01/Labrador-Retriever-dog-standing-on-the-lawn_Radomir-Rezny_Shutterstock.jpg"
+    },
+    {
+        "id":"2",
+        "title":"German Shepherd",
+        "description":"Renowned for their loyalty, intelligence, and versatility, German Shepherds are commonly used as police, military, and service dogs. They are highly trainable and protective, making them excellent companions and guardians.",
+        "picture":"https://images.ctfassets.net/440y9b545yd9/53KkmFPEBEsbxCzTDjrDmm/5bccce4f47e5f1c68ae1dabdd8db1293/German-Shepherd850.jpg"
     }
-//     German Shepherd:
-// Renowned for their loyalty, intelligence, and versatility, German Shepherds are commonly used as police, military, and service dogs. They are highly trainable and protective, making them excellent companions and guardians.
 
-// Golden Retriever:
-// Golden Retrievers are beloved for their gentle temperament, intelligence, and affectionate nature. They are well-suited as family pets and are often used as therapy and assistance dogs due to their calm demeanor and eagerness to please.
-
-// Bulldog:
-// Bulldogs are characterized by their muscular build, distinctive wrinkled face, and determined expression. Despite their tough appearance, they are known for their gentle disposition and are affectionate companions, particularly with children.
-
-// Poodle:
-// Poodles are renowned for their intelligence, elegance, and hypoallergenic coat. They come in three sizes—standard, miniature, and toy—and are highly trainable, making them excel in various dog sports and as family pets.
-
-// Beagle:
-// Beagles are known for their keen sense of smell, friendly demeanor, and playful nature. They are often employed as scent detection dogs and make excellent family pets due to their sociable and affectionate personality.
-
-// Siberian Husky:
-// Siberian Huskies are recognized for their striking appearance, including their thick double coat and distinctive markings. They are energetic, independent-minded dogs known for their endurance and were originally bred as sled dogs.
-
-// Boxer:
-// Boxers are medium to large-sized dogs with a powerful build and distinctive square muzzle. They are playful, energetic, and loyal companions, known for their protective instincts and affectionate nature towards their families.
-
-// Dachshund:
-// Dachshunds, also known as "wiener dogs" or "sausage dogs," are characterized by their long body and short legs. They are spirited, courageous dogs with a strong hunting instinct, originally bred for hunting small game such as badgers.
-
-// Shih Tzu:
-// Shih Tzus are small dogs with a luxurious coat that requires regular grooming. They are affectionate, outgoing, and playful companions, often forming strong bonds with their families and enjoying a life of pampering and attention.
 
 ]
