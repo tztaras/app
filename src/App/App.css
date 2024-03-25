@@ -46,6 +46,11 @@ p {
     text-align: justify;
 }
 
+a {
+    color: rgb(76, 123, 126);
+    font-weight: 500;
+}
+
 
 .active {
     color: azure;
