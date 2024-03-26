@@ -6,6 +6,7 @@ import Main from '../Main/Main';
 import Sidebar from '../Sidebar/Sidebar';
 import Footer from '../Footer/Footer';
 import Error from '../Error/Error';
+import Comp1 from '../Comp/Comp1';
 import './App.css';
 
 
@@ -15,8 +16,9 @@ function App() {
     return (
          
             <div className='container'>
-                
-                <Router>
+            <Comp1/>
+            <Router>
+                    
                     <Header />
                     <Sidebar/>
                     <Main />
