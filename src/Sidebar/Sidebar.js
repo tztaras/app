@@ -51,7 +51,9 @@ function Sidebar() {
             <section>
                 <h1>HAPPENING</h1>
                 <h2>Button</h2>
-                <button onClick={()=>f1(1)}>Push</button>
+                <input type="text" />
+                <button className="sidebutton" onClick={() => f1(1)}>Push</button>
+                <ul></ul>
                 <h2>Double click + mousemove</h2>
                 <div className="cyanbox" onDoubleClick={f1} onMouseEnter={() => f2(2) } style={{background: cd}}></div>
                 <h3>Input</h3>
@@ -72,7 +74,7 @@ function Sidebar() {
                     {dogs.map(item =>
                         <li key={item.id}>
                             <a href={item.picture}>{item.title}</a>
-                            <p>{item.description}</p>
+                            {/* <p>{item.description}</p> */}
                         </li>)}
                 </ul>
             </nav>
