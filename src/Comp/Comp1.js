@@ -30,7 +30,7 @@ class Comp1 extends React.Component{
                 </div>
                 <div>{this.state.count % 2 === 0 ? 'even' : 'odd' }</div>
                 <div>{this.state.count}</div>
-                <div><textarea name="" id="" cols="30" rows="10"></textarea></div>
+                <div><textarea name="" id="" cols="40" rows="3"></textarea></div>
                 <div><button>Залишити опінію</button></div>
                 <ul></ul>
             </>
