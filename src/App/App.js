@@ -6,8 +6,8 @@ import Main from '../Main/Main';
 import Sidebar from '../Sidebar/Sidebar';
 import Footer from '../Footer/Footer';
 import Error from '../Error/Error';
-import Comp1 from '../Comp/Comp1';
-import Comp2 from '../Comp/Comp2';
+// import Comp1 from '../Comp/Comp1';
+import States from '../Comp/States';
 import './App.css';
 
 
@@ -17,8 +17,8 @@ function App() {
     return (
          
             <div className='container'>
-            <Comp1 />
-            <Comp2/>
+            {/* <Comp1 /> */}
+            {/* <Comp2/> */}
             
             <Router>
                     
@@ -31,7 +31,7 @@ function App() {
                                     <Route path="/about" element={<About/>}/>
                                     <Route exact path="/users" element={<Users/>}/>
                                     <Route  path="/users/:userName" element={<UsersID/>}/>
-                                    <Route  path="/Comp2" element={<States/>}/>
+                                    <Route  path="/states" element={<States/>}/>
                                     <Route path="*" element={<Error/>}/>
                                 
                                     
