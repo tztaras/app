@@ -7,8 +7,10 @@ class Comp1 extends React.Component{
     constructor() {
         super();
         this.state = {
-            count: 0
+            count: 0,
+            comment:[]
         }
+        this.textComment = React.createRef();
 }
 
 
@@ -21,6 +23,16 @@ class Comp1 extends React.Component{
         });
     }
 
+    addComment=()=> {
+        let comment = this.textComment.current.value;
+        let listOfComments = this.state.comment;
+        listOfComments.push(comment);
+        this.setState({
+            comment : listOfComments
+        });
+        this.textComment.current.value = '';
+    }
+
     render() {
         return (
             <>
@@ -30,9 +42,9 @@ class Comp1 extends React.Component{
                 </div>
                 <div>{this.state.count % 2 === 0 ? 'even' : 'odd' }</div>
                 <div>{this.state.count}</div>
-                <div><textarea name="" id="" cols="40" rows="3"></textarea></div>
-                <div><button>Залишити опінію</button></div>
-                <ul></ul>
+                <div><textarea name="" id="" cols="40" rows="3" ref={this.textComment}></textarea></div>
+                <div><button onClick={this.addComment}>Залишити опінію</button></div>
+                <ul>{this.state.comment.map((item,index)=> <li key={index.toString()}><i>{'"' + item + '"'}</i></li>)}</ul>
             </>
         );
     }
