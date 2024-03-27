@@ -17,17 +17,16 @@ function App() {
     return (
          
             <div className='container'>
-            {/* <Comp1 /> */}
-            {/* <Comp2/> */}
-            
+
             <Router>
                     
                     <Header />
                 
                     <Sidebar/>
-                    <Main />
+                    {/* <Main /> */}
                                 <Routes>
                                     <Route exact path="/" element= {<Main/>} />
+                                    <Route  path="/main" element= {<Main/>} />
                                     <Route path="/about" element={<About/>}/>
                                     <Route exact path="/users" element={<Users/>}/>
                                     <Route  path="/users/:userName" element={<UsersID/>}/>
