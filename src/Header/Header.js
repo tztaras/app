@@ -26,14 +26,12 @@ function Header() {
                 {/* SPA */}
 
                <nav>
-                <ul>
-                    <li><NavLink to='/main'>Main</NavLink></li>
-                    <li><NavLink to='/users'>Users</NavLink></li>
-                    <li><NavLink to='/about'>About</NavLink></li>
-                </ul>
-
-                
-            </nav>
+                    <ul>
+                        <li><NavLink to='/main'>Main</NavLink></li>
+                        <li><NavLink to='/users'>Users</NavLink></li>
+                        <li><NavLink to='/about'>About</NavLink></li>
+                    </ul>
+                </nav>
 
             
         </div>
