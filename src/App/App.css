@@ -40,13 +40,13 @@ body {
 /* h1,
 h2,
 h3 {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 3px;
+    padding-right: 3px;
 } */
 
 p {
-    /* padding-left: 8px;
-    padding-right: 8px; */
+    padding-left: 3px;
+    padding-right: 3px;
     text-align: justify;
 }
 
