@@ -23,7 +23,8 @@ class Comp1 extends React.Component{
         });
     }
 
-    addComment=()=> {
+    // function addComment() {} --- do not work
+     addComment = () => {
         let comment = this.textComment.current.value;
         let listOfComments = this.state.comment;
         listOfComments.push(comment);
@@ -31,7 +32,8 @@ class Comp1 extends React.Component{
             comment : listOfComments
         });
         this.textComment.current.value = '';
-    }
+}
+
 
     render() {
         return (
@@ -44,7 +46,12 @@ class Comp1 extends React.Component{
                 <div>{this.state.count}</div>
                 <div><textarea name="" id="" cols="40" rows="3" ref={this.textComment}></textarea></div>
                 <div><button onClick={this.addComment}>Залишити опінію</button></div>
-                <ul>{this.state.comment.map((item,index)=> <li key={index.toString()}><i>{'"' + item + '"'}</i></li>)}</ul>
+                <ul>
+                    {this.state.comment.map(
+                        (item, index) =>
+                            <li key={index.toString()}><i>{'"' + item + '"'}</i></li>
+                    )}
+                </ul>
             </>
         );
     }
