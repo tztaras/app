@@ -30,6 +30,7 @@ function Header() {
                         <li><NavLink to='/main'>Main</NavLink></li>
                         <li><NavLink to='/users'>Users</NavLink></li>
                         <li><NavLink to='/about'>About</NavLink></li>
+                        <li><NavLink to='/states'>States</NavLink></li>
                     </ul>
                 </nav>
 
