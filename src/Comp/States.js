@@ -29,6 +29,10 @@ function States() {
         setComment(comments);
         textComment.current.value = '';
     }
+
+    let f4task = () => {
+        console.log('task4');
+    }
     
 
     return (
@@ -53,6 +57,13 @@ function States() {
                                 <li key={index.toString()}><i>{'"' + item + '"'}</i></li>
                     )}
                 </ul>
+            </section>
+            <section>
+                <hr/>
+                <h2>Task1</h2>
+                <input type="text" />
+                <button onClick={f4task}>Task1</button>
+                <div>{'{st1}'}</div>
             </section>
         </div>
     );
