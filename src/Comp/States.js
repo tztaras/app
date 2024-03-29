@@ -36,6 +36,9 @@ function States() {
         console.log('task4');
         let t4content = inputContent.current.value;
         console.log(t4content);
+        let t4inputs = [...st1, t4content];
+        setContent(t4inputs);
+        inputContent.current.value = '';
 
     }
     
@@ -68,7 +71,9 @@ function States() {
                 <h2>Task1</h2>
                 <input type="text" ref={inputContent} />
                 <div><button onClick={f4task}>Task1</button></div>
-                <div>{'{st1}'}</div>
+                <div>
+                    {st1.map(
+                        (item, index) => <span key={index.toString()}><b>{item}<br/></b></span>)}</div>
             </section>
         </div>
     );
