@@ -41,6 +41,10 @@ function States() {
         inputContent.current.value = '';
 
     }
+
+    let task2 = () => {
+        console.log('task2 function works');
+    }
     
 
     return (
@@ -78,7 +82,7 @@ function States() {
             <section>
                 <hr />
                 <h2>Task 2</h2>
-                <div className="task2"> <h4>блок task 2</h4></div>
+                <div className="task2" onMouseEnter={task2}> <h4>блок task 2</h4></div>
                 <div></div>
             </section>
         </div>
