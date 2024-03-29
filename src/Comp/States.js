@@ -7,8 +7,10 @@ import { useState } from 'react';
 function States() {
     const [count, setCount] = useState(0);
     const [comment, setComment] = useState([]);
+    const [st1, setContent] = useState([]);
 
     let textComment = React.createRef();
+    let inputContent = React.createRef();
 
 
 
@@ -32,6 +34,9 @@ function States() {
 
     let f4task = () => {
         console.log('task4');
+        let t4content = inputContent.current.value;
+        console.log(t4content);
+
     }
     
 
@@ -61,8 +66,8 @@ function States() {
             <section>
                 <hr/>
                 <h2>Task1</h2>
-                <input type="text" />
-                <button onClick={f4task}>Task1</button>
+                <input type="text" ref={inputContent} />
+                <div><button onClick={f4task}>Task1</button></div>
                 <div>{'{st1}'}</div>
             </section>
         </div>
