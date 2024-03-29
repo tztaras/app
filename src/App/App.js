@@ -6,7 +6,7 @@ import Main from '../Main/Main';
 import Sidebar from '../Sidebar/Sidebar';
 import Footer from '../Footer/Footer';
 import Error from '../Error/Error';
-// import Comp1 from '../Comp/Comp1';
+import Comp1 from '../Comp/Comp1';
 import States from '../Comp/States';
 import './App.css';
 
