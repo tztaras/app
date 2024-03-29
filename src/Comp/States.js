@@ -8,7 +8,7 @@ function States() {
     const [count, setCount] = useState();
     const [comment, setComment] = useState([]);
     const [st1, setContent] = useState([]);
-    const [st2, setState] = useState(1);
+    const [st2, setState] = useState(0);
 
     let textComment = React.createRef();
     let inputContent = React.createRef();
@@ -46,7 +46,7 @@ function States() {
     let task2 = (number) => {
         
         let currentSt2 = st2;
-        currentSt2+=number;
+        currentSt2 += number;
         setState(currentSt2);
         console.log(currentSt2);
     }
@@ -87,7 +87,7 @@ function States() {
             <section>
                 <hr />
                 <h2>Task 2</h2>
-                <div className="task2" onMouseEnter={()=>task2(1)}> <h4>блок task 2</h4></div>
+                <div className="task2" onMouseEnter={()=>task2(11)}> <h4>блок task 2</h4></div>
                 <div>{st2}</div>
             </section>
         </div>
