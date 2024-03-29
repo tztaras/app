@@ -6,3 +6,12 @@
     background-color: aliceblue;
     /* text-align: center; */
 }
+
+
+.task2 {
+    width: 100px;
+    height: 80px;
+    background: radial-gradient(circle, rgb(59, 189, 113) 10%, rgb(50, 139, 212) 80%);
+
+
+}

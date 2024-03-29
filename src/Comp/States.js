@@ -68,12 +68,18 @@ function States() {
             </section>
             <section>
                 <hr/>
-                <h2>Task1</h2>
+                <h2>Task 1</h2>
                 <input type="text" ref={inputContent} />
                 <div><button onClick={f4task}>Task1</button></div>
                 <div>
                     {st1.map(
                         (item, index) => <span key={index.toString()}><b>{item}<br/></b></span>)}</div>
+            </section>
+            <section>
+                <hr />
+                <h2>Task 2</h2>
+                <div className="task2"> <h4>блок task 2</h4></div>
+                <div></div>
             </section>
         </div>
     );
