@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 
 function States() {
-    const [count, setCount] = useState();
+    const [count, setCount] = useState(0);
     const [comment, setComment] = useState([]);
     const [st1, setContent] = useState([]);
     const [st2, setState] = useState(0);
@@ -64,7 +64,7 @@ function States() {
                 <div>{count % 2 === 0 ? 'even' : 'odd' }</div>
                 <div>{count}</div>
                 
-                <div><textarea name="" id="" cols="40" rows="3" ref={textComment}></textarea></div>
+                <div ><textarea name="" id=""  ref={textComment}  style={{ width: '50%' }}></textarea></div>
                 
                 <div><button onClick={addComment}>Залишити опінію</button></div>
 
@@ -89,6 +89,12 @@ function States() {
                 <h2>Task 2</h2>
                 <div className="task2" onMouseEnter={()=>task2(11)}> <h4>блок task 2</h4></div>
                 <div>{st2}</div>
+            </section>
+            <section>
+                <hr />
+                <h2>Task 3</h2>
+                <div><input type="text" /></div>
+                <div>{'{st3}'}</div>
             </section>
         </div>
     );
