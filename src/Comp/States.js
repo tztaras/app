@@ -64,7 +64,7 @@ function States() {
                 <div>{count % 2 === 0 ? 'even' : 'odd' }</div>
                 <div>{count}</div>
                 
-                <div ><textarea name="" id=""  ref={textComment}  style={{ width: '50%' }}></textarea></div>
+                <div ><textarea name="" id="" ref={textComment} style={{ width: '80%' }} rows={3} ></textarea></div>
                 
                 <div><button onClick={addComment}>Залишити опінію</button></div>
 
@@ -95,6 +95,8 @@ function States() {
                 <h2>Task 3</h2>
                 <div><input type="text" /></div>
                 <div>{'{st3}'}</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim architecto doloremque libero tempora officiis quas dolorem minus temporibus placeat asperiores ratione exercitationem illo, ullam nihil ea beatae praesentium voluptas? Animi necessitatibus cupiditate ullam molestias vero obcaecati blanditiis. Necessitatibus doloremque natus non voluptatum nisi aliquam beatae nesciunt officiis pariatur hic ipsam quos placeat repudiandae, fugit dolor aperiam sit, provident nihil eligendi autem dolorem! Nisi, unde dignissimos incidunt iure expedita sapiente? Atque sint reiciendis alias, molestias tempora, veritatis asperiores inventore corrupti sit beatae aut deleniti explicabo veniam laboriosam aperiam saepe hic voluptate! Sunt nisi a molestias ipsa reprehenderit fugit facilis. Perspiciatis vel debitis, consectetur officia sequi a iure culpa dolore dicta porro omnis voluptates iusto nostrum nulla delectus illum voluptas itaque sed quidem at voluptatem. Accusamus ipsum error soluta. Laudantium est dolores voluptates voluptatum. Tempora ratione deleniti ipsa cupiditate atque vero libero doloribus quos asperiores unde obcaecati, soluta velit non quidem repellat porro voluptate error impedit culpa in sint dignissimos. Magni eos quibusdam aspernatur culpa error. Praesentium dolore atque nisi quis, animi aut libero, odit nulla quas laudantium dolores ducimus repellat sapiente ut consequuntur enim placeat modi labore cum asperiores reiciendis tempora eveniet ipsa beatae? Odit illo excepturi tempore ullam, illum nam?
+                </p>
             </section>
         </div>
     );

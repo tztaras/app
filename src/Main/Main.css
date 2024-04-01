@@ -15,6 +15,14 @@ section:last-child {
     padding-bottom: 15px;
 }
 
+textarea {
+    max-width: 400px;
+}
+
+
+/* input {
+    width: 30%;
+} */
 
 /* .main>a {
     padding-left: 8px;
