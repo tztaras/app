@@ -9,9 +9,11 @@ function States() {
     const [comment, setComment] = useState([]);
     const [st1, setContent] = useState([]);
     const [st2, setState] = useState(0);
+    const [st3, setInfo] = useState([]);
 
     let textComment = React.createRef();
     let inputContent = React.createRef();
+    let infoAdded = React.createRef();
 
 
 
@@ -49,6 +51,14 @@ function States() {
         currentSt2 += number;
         setState(currentSt2);
         console.log(currentSt2);
+    }
+
+    let task3 = () => {
+        console.log('task3');
+        let t3input = infoAdded.current.value;
+        console.log(t3input);
+        let allInfo = [...st3, t3input];
+        setInfo(allInfo);
     }
     
 
@@ -93,8 +103,8 @@ function States() {
             <section>
                 <hr />
                 <h2>Task 3</h2>
-                <div><input type="text" /></div>
-                <div>{'{st3}'}</div>
+                <div><input type="text" onInput={task3} ref={infoAdded}/></div>
+                <p>{st3}</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim architecto doloremque libero tempora officiis quas dolorem minus temporibus placeat asperiores ratione exercitationem illo, ullam nihil ea beatae praesentium voluptas? Animi necessitatibus cupiditate ullam molestias vero obcaecati blanditiis. Necessitatibus doloremque natus non voluptatum nisi aliquam beatae nesciunt officiis pariatur hic ipsam quos placeat repudiandae, fugit dolor aperiam sit, provident nihil eligendi autem dolorem! Nisi, unde dignissimos incidunt iure expedita sapiente? Atque sint reiciendis alias, molestias tempora, veritatis asperiores inventore corrupti sit beatae aut deleniti explicabo veniam laboriosam aperiam saepe hic voluptate! Sunt nisi a molestias ipsa reprehenderit fugit facilis. Perspiciatis vel debitis, consectetur officia sequi a iure culpa dolore dicta porro omnis voluptates iusto nostrum nulla delectus illum voluptas itaque sed quidem at voluptatem. Accusamus ipsum error soluta. Laudantium est dolores voluptates voluptatum. Tempora ratione deleniti ipsa cupiditate atque vero libero doloribus quos asperiores unde obcaecati, soluta velit non quidem repellat porro voluptate error impedit culpa in sint dignissimos. Magni eos quibusdam aspernatur culpa error. Praesentium dolore atque nisi quis, animi aut libero, odit nulla quas laudantium dolores ducimus repellat sapiente ut consequuntur enim placeat modi labore cum asperiores reiciendis tempora eveniet ipsa beatae? Odit illo excepturi tempore ullam, illum nam?
                 </p>
             </section>
