@@ -3,6 +3,15 @@ import '../Lifecycles/Lifecycles.css';
 
 class Lifecycle extends React.Component {
 
+    constructor() {
+        console.clear();
+        console.log('constructor works');
+        super();
+        this.state = {
+            s1 : 0
+        }
+    }
+
     buttonHandler = () => {
         console.log('work');
     }
