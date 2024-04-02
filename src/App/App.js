@@ -6,8 +6,9 @@ import Main from '../Main/Main';
 import Sidebar from '../Sidebar/Sidebar';
 import Footer from '../Footer/Footer';
 import Error from '../Error/Error';
-import Comp1 from '../Comp/Comp1';
+// import Comp1 from '../Comp/Comp1';
 import States from '../Comp/States';
+import Lifecycle from '../Lifecycles/Lifecycle';
 import './App.css';
 
 
@@ -21,9 +22,9 @@ function App() {
             <Router>
                     
                     <Header />
-                
+                    {/* <Comp1/> */}
                     <Sidebar/>
-                    {/* <Main /> */}
+                    {/* <Lifecycle /> */}
                                 <Routes>
                                     <Route exact path="/" element= {<Main/>} />
                                     <Route  path="/main" element= {<Main/>} />
@@ -31,6 +32,7 @@ function App() {
                                     <Route exact path="/users" element={<Users/>}/>
                                     <Route  path="/users/:userName" element={<UsersID/>}/>
                                     <Route  path="/states" element={<States/>}/>
+                                    <Route  path="/lifecycles" element={<Lifecycle/>}/>
                                     <Route path="*" element={<Error/>}/>
                                 
                                     
