@@ -10,7 +10,7 @@ function Header() {
                     <h2>Початок роботи</h2>
                 </div>
                 <div className="header-img">
-                    <img src="./img/rictus-erectus.png" alt="rictus-erectus" height='150px' />
+                    <img src="./img/rictus-erectus.png" alt="rictus-erectus" height='130px' />
                </div>
             {/* <nav>
                 <ul>
