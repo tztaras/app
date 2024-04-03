@@ -3,17 +3,28 @@ import '../Lifecycles/Lifecycles.css';
 
 class Lifecycle extends React.Component {
 
-    constructor() {
+    constructor(props) {
         console.clear();
         console.log('constructor works');
+        console.log(props);
         super();
         this.state = {
-            s1 : 0
+            // s1 : 0
+            s1: props.arg
         }
     }
 
     buttonHandler = () => {
-        console.log('work');
+        let val = this.state.s1;
+        console.log(val);
+        val++;
+        console.log(val);
+        this.setState({ s1: val });
+        
+        
+        
+
+
     }
 
     render() {
@@ -25,6 +36,7 @@ class Lifecycle extends React.Component {
                 <section>
                     <h1>Lifecycles</h1>
                     <div><button onClick={this.buttonHandler}>CLICK</button></div>
+                    <div>{this.state.s1}</div>
                 </section>    
             </div>
         )

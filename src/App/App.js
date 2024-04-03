@@ -24,7 +24,7 @@ function App() {
                     <Header />
                     {/* <Comp1/> */}
                     <Sidebar/>
-                    {/* <Lifecycle /> */}
+            
                                 <Routes>
                                     <Route exact path="/" element= {<Main/>} />
                                     <Route  path="/main" element= {<Main/>} />
@@ -32,7 +32,7 @@ function App() {
                                     <Route exact path="/users" element={<Users/>}/>
                                     <Route  path="/users/:userName" element={<UsersID/>}/>
                                     <Route  path="/states" element={<States/>}/>
-                                    <Route  path="/lifecycles" element={<Lifecycle/>}/>
+                                    <Route path="/lifecycles" element={<Lifecycle arg={777} />}/>
                                     <Route path="*" element={<Error/>}/>
                                 
                                     
@@ -41,7 +41,8 @@ function App() {
                     
                     <Footer/>
                         
-                </Router>
+            </Router>
+                    {/* <Lifecycle arg={777} /> */}
 
                     
                 
