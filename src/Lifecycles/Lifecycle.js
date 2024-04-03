@@ -10,8 +10,8 @@ class Lifecycle extends React.Component {
         console.log(props);
         super();
         this.state = {
-            s1 : 0
-            // s1: props.arg
+            // s1 : 0
+            s1: props.arg
         }
     }
 
