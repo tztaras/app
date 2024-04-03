@@ -9,6 +9,7 @@ import Error from '../Error/Error';
 // import Comp1 from '../Comp/Comp1';
 import States from '../Comp/States';
 import Lifecycle from '../Lifecycles/Lifecycle';
+import Test2 from '../ComponentTest/ComponentTest';
 import './App.css';
 
 
@@ -33,6 +34,8 @@ function App() {
                                     <Route  path="/users/:userName" element={<UsersID/>}/>
                                     <Route  path="/states" element={<States/>}/>
                                     <Route path="/lifecycles" element={<Lifecycle arg={777} />}/>
+                                    <Route path="/component-test" element={<Test2 arg={777} />}/>
+                                    
                                     <Route path="*" element={<Error/>}/>
                                 
                                     
@@ -42,7 +45,7 @@ function App() {
                     <Footer/>
                         
             </Router>
-                    {/* <Lifecycle arg={777} /> */}
+            {/* <Test2 /> */}
 
                     
                 
