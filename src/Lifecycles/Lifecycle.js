@@ -9,8 +9,8 @@ class Lifecycle extends React.Component {
         console.log(props);
         super();
         this.state = {
-            // s1 : 0
-            s1: props.arg
+            s1 : 0
+            // s1: props.arg
         }
     }
 
@@ -21,10 +21,12 @@ class Lifecycle extends React.Component {
         console.log(val);
         this.setState({ s1: val });
         
-        
-        
+    }
 
-
+    static getDerivedStateFromProps(props, state) {
+        console.log('get derived state');
+        // return null
+        return ({'s1':props.arg})
     }
 
     render() {
