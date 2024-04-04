@@ -17,12 +17,16 @@ function Test2(props) {
         
     }
 
+    //  in a functional component, you don't use lifecycle methods like componentDidMount. Instead, you use the useEffect hook to achieve similar functionality.
+
     useEffect (()=> {
         console.log('effect');
     });
 
 
     console.log('render 1');
+
+   
 
     return (
         <div className="compoTest">

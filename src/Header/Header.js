@@ -34,7 +34,7 @@ function Header() {
                         <li><NavLink to='/about'>About</NavLink></li>
                         <li><NavLink to='/states'>States</NavLink></li>
                         <li><NavLink to='/lifecycles'>Lifecycles</NavLink></li>
-                        <li><NavLink to='/component-test'>Component test</NavLink></li>
+                        <li><NavLink to='/component-test'>Functional component</NavLink></li>
                     </ul>
                 </nav>
 
