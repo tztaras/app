@@ -33,8 +33,8 @@ function App() {
                                     <Route exact path="/users" element={<Users/>}/>
                                     <Route  path="/users/:userName" element={<UsersID/>}/>
                                     <Route  path="/states" element={<States/>}/>
-                                    <Route path="/lifecycles" element={<Lifecycle arg={777} />}/>
-                                    <Route path="/component-test" element={<Test2 arg={888} />}/>
+                                    <Route path="/lifecycles" element={<Lifecycle arg={777} anthrarg={'qwer'} shtnofprops={[91, 23, 234, 4]}/>}/>
+                    <Route path="/component-test" element={<Test2 arg={88}  />}/>
                                     
                                     <Route path="*" element={<Error/>}/>
                                 

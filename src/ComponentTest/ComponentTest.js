@@ -2,10 +2,12 @@
 import React, {useState, useEffect} from "react";
 
 
-function Test2(props) {
+function Test2() {
+    let arg = 34;
     console.log('set state');
 
-    const [s1, set1] = useState(props.arg);
+    const [s1, set1] = useState(arg);
+    // useState(props.arg)
 
     const buttonHandler = () => {
         console.log('handler');
