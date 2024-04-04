@@ -9,6 +9,7 @@ class Lifecycle extends React.Component {
         console.log('constructor works');
         console.log(props);
         super();
+        // The super() method is used to call the constructor of the parent class. In React components, super(props) is called within the constructor to ensure that the parent class constructor is properly called with the props parameter. If you don't call super(props), this.props will be undefined in the constructor, which can lead to bugs.
         this.state = {
             // s1 : 0
             s1: props.arg
@@ -29,10 +30,12 @@ class Lifecycle extends React.Component {
         return null
         // return ({'s1':props.arg})
     }
+    // This method is called every time the component is rendered, regardless of the cause of the update (initial mount, prop changes, or state changes).
 
     componentDidMount() {
         console.log('component did mount');
     }
+    // This method is commonly used to perform actions that require interaction with the DOM or external data fetching, such as initializing JavaScript libraries, making API requests, or setting up event listeners.
 
     componentDidUpdate() {
         console.log('component did update');
