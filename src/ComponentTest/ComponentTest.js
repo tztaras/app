@@ -28,6 +28,10 @@ function Test2(props) {
 
     console.log('render 1');
 
+    // useEffect(() => {
+    //     console.log('render');
+    // });
+
    
 
     return (
