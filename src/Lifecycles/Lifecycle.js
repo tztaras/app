@@ -14,10 +14,10 @@ class Lifecycle extends React.Component {
             // s1 : 0
             s1: props.arg,
             s2: props.anthrarg,
-            // s3: props.shtnofprops
+            s3: props.shtnofprops
         }
-        let s3 = '201';
-        console.log(s3);
+        // let s3 = '201';
+        // console.log(s3);
     }
 
     buttonHandler = () => {
@@ -34,10 +34,12 @@ class Lifecycle extends React.Component {
 
     
 
-        // let fnlArg = this.state.s3;
-        // console.log(fnlArg);
-        // fnlArg+=" <-- that was an array";
-        // console.log(fnlArg);
+        let fnlArg = this.state.s3;
+        console.log(fnlArg);
+        fnlArg += " <-- that was an array";
+        console.log(fnlArg);
+        this.setState({s3 : fnlArg})
+
 
     }
 
