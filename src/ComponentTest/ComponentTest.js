@@ -6,7 +6,7 @@ function Test2(props) {
     // let arg = 111;
     console.log('set state');
 
-    const [s1, set1] = useState(props.arg);
+    const [s1, set1] = useState(props.arg); // при пропс.арг передаємо пропс як аргумент у функцію :  function Test2(props)
     // useState(arg)
 
     const buttonHandler = () => {
@@ -14,6 +14,7 @@ function Test2(props) {
         let val = s1;
         val++;
         set1(val);
+        // відбувається перезапуск всієї функції
         
         
         
