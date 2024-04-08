@@ -37,6 +37,9 @@ function Test2(props) {
                     <h1>Component Test 2</h1>
                     <div><button onClick={buttonHandler}>CLICK</button></div>
                     <div>{s1}</div>
+                {/* <div>{s1.map(
+                    (item, index) => <span key={index.toString()}><b>{item}</b><hr/></span>
+                    )}</div> */}
                 </section>    
         </div>
     )

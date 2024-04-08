@@ -1,6 +1,7 @@
 .header-site-name {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
     background-color: rgb(113, 202, 202);
     grid-area: h;

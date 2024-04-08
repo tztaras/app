@@ -74,6 +74,7 @@ class Lifecycle extends React.Component {
                     <div>{this.state.s1}</div>
                     <div>{this.state.s2}</div>
                     <div >{this.state.s3}</div>
+                    
                     {/* <div>{s2.map(
                         (item, index) => <span key={index.toString()}><b>{item}</b><hr/></span>
                     )}</div> */}
