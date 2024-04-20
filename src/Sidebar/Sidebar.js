@@ -47,8 +47,21 @@ function Sidebar() {
     // }
     return (
         <div className="sidebar">
+
+            <section className='containerSiblings'>
+                
+                <div className="sibling"> {'{1}'}</div>
+                <div className="sibling"> {'{2}'}</div>
+                <div className="sibling"> {'{3}'}</div>
+                <div className="sibling"> {'{4}'}</div>
+                <div className="sibling"> {'{5}'}</div>
+                <div className="sibling"> {'{6}'}</div>
+                <div className="sibling"> {'{7}'}</div>
+                <div className="sibling"> {'{8}'}</div>
+            </section>
             
             <section>
+                
                 <h1>HAPPENING</h1>
                 <h2>Button</h2>
                 <input type="text" />

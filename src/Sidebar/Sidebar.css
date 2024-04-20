@@ -65,3 +65,26 @@ input[type='text'] {
     height: 80px;
     background: cyan;
 }
+
+.containerSiblings {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.sibling {
+    background-color: blueviolet;
+    color: aliceblue;
+    transition: opacity 0.1s ease;
+    padding: 5px 6px;
+    width: min-content;
+}
+
+.containerSiblings:hover {
+    cursor: pointer;
+}
+
+.containerSiblings:hover>:not(:hover) {
+    opacity: 0.6;
+}

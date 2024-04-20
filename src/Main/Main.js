@@ -39,7 +39,7 @@ function Main() {
                 
                 <h3>Стилі inline</h3>
                 <p style={c}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p style={{ color: ab, background: 'cadetblue', textShadow: '0 0 3px whitesmoke', fontSize: '18px' }}  >Lorem ipsum dolor sit amet consectetur</p>
+                <p style={{ color: ab, background: 'cadetblue', textShadow: '0 0 3px whitesmoke', fontSize: '18px', padding:'5px 8px' }}  >Lorem ipsum dolor sit amet consectetur</p>
                 
                 
                 {/* <div>{Object.keys(f).map(item => ' ' + item + ' ' + f[item]) + ' '}</div> */}
