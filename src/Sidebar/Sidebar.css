@@ -74,8 +74,9 @@ input[type='text'] {
 }
 
 .sibling {
-    background-color: blueviolet;
+    background-color: cadetblue;
     color: aliceblue;
+   font-weight: bold;
     transition: opacity 0.1s ease;
     padding: 5px 6px;
     width: min-content;
