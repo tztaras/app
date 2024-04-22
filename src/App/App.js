@@ -16,45 +16,28 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
+
+// const App = ()=>{
     return (
-         
             <div className='container'>
-
-            <Router>
-                    
-                    <Header />
-                    {/* <Comp1/> */}
-                    <Sidebar/>
-            
-                                <Routes>
-                                    <Route exact path="/" element= {<Main/>} />
-                                    <Route  path="/main" element= {<Main/>} />
-                                    <Route path="/about" element={<About/>}/>
-                                    <Route exact path="/users" element={<Users/>}/>
-                                    <Route  path="/users/:userName" element={<UsersID/>}/>
-                                    <Route  path="/states" element={<States/>}/>
-                                    <Route path="/lifecycles" element={<Lifecycle arg={777} anthrarg={'qwer'} shtnofprops={[91, 23, 234, 4]}/>}/>
-                    <Route path="/component-test" element={<Test2 arg={88}  />}/>
-                                    
-                                    <Route path="*" element={<Error/>}/>
-                                
-                                    
-                                
-                                </Routes>
-                    
-                    <Footer/>
-                        
-            </Router>
-            {/* <Test2 /> */}
-
-                    
-                
-                    
-            
-                
-            
+                <Router>
+                        <Header />
+                        {/* <Comp1/> */}
+                        <Sidebar/>
+                                    <Routes>
+                                        <Route exact path="/" element= {<Main/>} />
+                                        <Route  path="/main" element= {<Main/>} />
+                                        <Route path="/about" element={<About/>}/>
+                                        <Route exact path="/users" element={<Users/>}/>
+                                        <Route  path="/users/:userName" element={<UsersID/>}/>
+                                        <Route  path="/states" element={<States/>}/>
+                                        <Route path="/lifecycles" element={<Lifecycle arg={777} anthrarg={'qwer'} shtnofprops={[91, 23, 234, 4]}/>}/>
+                                        <Route path="/component-test" element={<Test2 arg={88}  />}/>
+                                        <Route path="*" element={<Error/>}/>
+                                    </Routes>
+                        <Footer/>
+                </Router>
             </div>
     )
 }
-
 export default App;
