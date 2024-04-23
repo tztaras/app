@@ -39,6 +39,7 @@ a {
 
 ::-webkit-scrollbar {
     width: 7px;
+
     /* background: var(--basedbackground); */
 }
 
