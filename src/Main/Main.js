@@ -16,6 +16,9 @@ function Main() {
 
     return (
         <div className="main">
+            <div className="cat-main">
+            <img src="./img/cat-main.jpg" alt="grey cat" />
+            </div>
 
             <section>
                 <h3>Вивід змінної </h3>

@@ -8,6 +8,14 @@
 
 }
 
+
+
+.cat-main img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
 section {
     padding: 0 18px;
 }

@@ -11,7 +11,7 @@ function Header() {
                 </div>
                 <div className="header-img">
                     <img src="./img/rictus-erectus.png" alt="rictus-erectus" height='130px' />
-               </div>
+                </div>
             {/* <nav>
                 <ul>
                     <li><a href='/main'>Main</a></li>
@@ -27,16 +27,17 @@ function Header() {
                 {/* SPA */}
                 {/* SPA */}
 
-               <nav>
-                    <ul>
-                        <li><NavLink to='/main'>Main</NavLink></li>
-                        <li><NavLink to='/users'>Users</NavLink></li>
-                        <li><NavLink to='/about'>About</NavLink></li>
-                        <li><NavLink to='/states'>States</NavLink></li>
-                        <li><NavLink to='/lifecycles'>Lifecycles</NavLink></li>
-                        <li><NavLink to='/component-test'>Functional component</NavLink></li>
-                    </ul>
-                </nav>
+            <nav>
+                <ul>
+                    <li><NavLink to='/main'>Main</NavLink></li>
+                    <li><NavLink to='/users'>Users</NavLink></li>
+                    <li><NavLink to='/about'>About</NavLink></li>
+                    <li><NavLink to='/states'>States</NavLink></li>
+                    <li><NavLink to='/lifecycles'>Lifecycles</NavLink></li>
+                    <li><NavLink to='/component-test'>Functional component</NavLink></li>
+                </ul>
+            </nav>
+             
 
             
         </div>
