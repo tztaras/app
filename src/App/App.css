@@ -38,15 +38,15 @@ a {
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
-    background: var(--basedbackground);
+    width: 7px;
+    /* background: var(--basedbackground); */
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(37, 62, 63);
+    background: rgb(0, 0, 0);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: whitesmoke;
+    background: rgb(43, 74, 78);
 
 }

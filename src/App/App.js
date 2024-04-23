@@ -24,7 +24,7 @@ function App() {
                         <Header />
                         {/* <Comp1/> */}
                         <Sidebar/>
-                                    <Routes>
+                            <Routes>
                                         <Route exact path="/" element= {<Main/>} />
                                         <Route  path="/main" element= {<Main/>} />
                                         <Route path="/about" element={<About/>}/>
@@ -34,7 +34,7 @@ function App() {
                                         <Route path="/lifecycles" element={<Lifecycle arg={777} anthrarg={'qwer'} shtnofprops={[91, 23, 234, 4]}/>}/>
                                         <Route path="/component-test" element={<Test2 arg={88}  />}/>
                                         <Route path="*" element={<Error/>}/>
-                                    </Routes>
+                            </Routes>
                         <Footer/>
                 </Router>
             </div>
