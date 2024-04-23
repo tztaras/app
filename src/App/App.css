@@ -1,12 +1,14 @@
 :root {
     --cadmiumyellow: #fff600;
+    --basedbackground: linear-gradient(170deg, cadetblue 10%, rgb(50, 139, 212) 80%);
 }
 
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(70, 42, 42);
-    background: linear-gradient(170deg, cadetblue 10%, rgb(50, 139, 212) 80%);
+    background: var(--basedbackground);
+    /* background: linear-gradient(170deg, cadetblue 10%, rgb(50, 139, 212) 80%); */
 }
 
 .container {
@@ -33,4 +35,18 @@ a {
 .active {
     color: rgb(255, 255, 255);
     background: cadetblue;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: var(--basedbackground);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(37, 62, 63);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: whitesmoke;
+
 }
