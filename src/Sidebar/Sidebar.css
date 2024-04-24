@@ -6,9 +6,13 @@
     background-color: aliceblue;
     border-radius: 5px;
     box-shadow: 0px 0px 5px cyan;
+    position: relative;
+    overflow: hidden;
 
 
 }
+
+
 
 .sidebar section h2 {
     margin-bottom: 8px;
@@ -92,4 +96,112 @@ input[type='text'] {
 
 .containerSiblings:hover>:not(:hover) {
     opacity: 0.6;
+}
+
+label .menu {
+    position: absolute;
+    right: -70px;
+    top: -70px;
+    z-index: 100;
+    width: 140px;
+    height: 140px;
+    background: cadetblue;
+    border-radius: 50% 50% 50% 50%;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    box-shadow: 0 0 0 0 cadetblue, 0 0 0 0 cadetblue;
+    cursor: pointer;
+
+}
+
+label .hamburger {
+    position: absolute;
+    top: 97px;
+    left: 26px;
+    width: 30px;
+    height: 4px;
+    background: #ffffff;
+    display: block;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+label .hamburger:after,
+label .hamburger:before {
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+
+label .hamburger:before {
+    top: -10px;
+}
+
+label .hamburger:after {
+    bottom: -10px;
+}
+
+label input {
+    display: none;
+}
+
+label input:checked+.menu {
+    box-shadow: 0 0 0 100vw cadetblue, 0 0 0 100vh cadetblue;
+    border-radius: 0;
+
+}
+
+label input:checked+.menu .hamburger {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+}
+
+label input:checked+.menu .hamburger:after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    bottom: 0;
+
+}
+
+label input:checked+.menu .hamburger:before {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 0;
+
+}
+
+label input:checked+.menu+ul {
+    opacity: 1;
+}
+
+label ul {
+    z-index: 200;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    -webkit-transition: .25s 0s ease-in-out;
+    transition: .25s 0s ease-in-out;
+}
+
+label li {
+    color: #FFF;
+}
+
+label a {
+    margin-bottom: 1em;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+
 }

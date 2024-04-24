@@ -47,13 +47,27 @@ function Sidebar() {
     // }
     return (
         <div className="sidebar">
+
+            <section>
+                <label>
+                    <input id="ham-menu" type="checkbox" name="" />
+                    <span class="menu">
+                        <span class="hamburger"></span>
+                    </span>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </label>
+            </section>
             <section>
                 <h2>Menu</h2>
                 <nav>
-                    <div><a>Profile</a></div>
+                    {/* <div><a>Profile</a></div>
                     <div><a>Messages</a></div>
                     <div><a>Content</a></div>
-                    <div><a>Settings</a></div>
+                    <div><a>Settings</a></div> */}
                     {/* <div></div>
                     <div></div>
                     <div></div> */}
