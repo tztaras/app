@@ -4,15 +4,10 @@
     border-radius: 5px;
     box-shadow: 0px 0px 5px cyan;
     background-color: aliceblue;
-
-
 }
-
-
 
 .rocks-main img {
     width: 100%;
-
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -28,13 +23,3 @@ section:last-child {
 textarea {
     max-width: 400px;
 }
-
-
-/* input {
-    width: 30%;
-} */
-
-/* .main>a {
-    padding-left: 8px;
-    color: rgb(0, 255, 64);
-} */
