@@ -3,6 +3,7 @@ import links from '../data/articles.json';
 import dogs from '../data/dogs.json';
 import React from 'react';
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Sidebar() {
     console.log(dogs);
@@ -55,10 +56,17 @@ function Sidebar() {
                         <span class="hamburger"></span>
                     </span>
                     <ul>
-                        <li><a href="">Home</a></li>
+                        {/* <li><a href="">Home</a></li>
                         <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="">Contact</a></li> */}
+                        <li><NavLink to='/main'>Main</NavLink></li>
+                        <li><NavLink to='/users'>Users</NavLink></li>
+                        <li><NavLink to='/about'>About</NavLink></li>
+                        <li><NavLink to='/states'>States</NavLink></li>
+                        <li><NavLink to='/lifecycles'>Lifecycles</NavLink></li>
+                        <li><NavLink to='/component-test'>Functional component</NavLink></li>
                     </ul>
+                    
                 </label>
             </section>
             <section>

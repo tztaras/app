@@ -12,6 +12,10 @@
 
 }
 
+.sidebar section:nth-child(1) {
+    margin-top: 35px;
+}
+
 
 
 .sidebar section h2 {
@@ -185,7 +189,7 @@ label input:checked+.menu+ul {
 label ul {
     z-index: 200;
     position: absolute;
-    top: 8%;
+    top: 20%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
