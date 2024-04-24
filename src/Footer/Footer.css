@@ -1,23 +1,27 @@
 .footer-site-name {
-    background-color: rgb(173, 177, 177);
+    /* background-color: rgb(173, 177, 177); */
     grid-area: f;
     margin-bottom: 10px;
-    /* background-image: ; */
+    /* background-image: url('./img/rocks-bottom.jpg'); */
+    background-image: url('/public/img/rocks-bottom.jpg');
     /* margin-bottom: 34px; */
     /* border: 1px solid salmon; */
     border-radius: 5px;
     box-shadow: 0px 0px 5px cyan;
-    background-color: aliceblue;
+    background-color: rgb(57, 62, 66);
+    /* background-size: cover; */
+    background-position: center;
 
 
 
 }
 
 .footer-site-name>p {
-    color: rgb(39, 126, 214);
+    color: rgb(255, 255, 255);
     text-align: center;
+    letter-spacing: 2px;
     font-weight: 900;
-    text-shadow: 0 0 3px cyan;
+    text-shadow: 0 0 6px rgb(39, 126, 214);
 
 
 }
