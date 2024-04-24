@@ -7,3 +7,20 @@
     box-shadow: 0px 0px 5px cyan;
     background-color: aliceblue;
 }
+
+/* CAN YOU MAKE IT WIDER, PLEASE? */
+.cat-main {
+    display: flex;
+    justify-content: center;
+}
+
+.cat-main img {
+
+    /* THANKS */
+
+    /* height: 200px;
+    width: 400px; */
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}

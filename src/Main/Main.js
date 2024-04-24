@@ -16,8 +16,8 @@ function Main() {
 
     return (
         <div className="main">
-            <div className="cat-main">
-            <img src="./img/cat-main.jpg" alt="grey cat" />
+            <div className="rocks-main">
+            <img src="./img/rocks-main.jpg" alt="rocks" />
             </div>
 
             <section>
