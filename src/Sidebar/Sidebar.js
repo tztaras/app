@@ -59,23 +59,17 @@ function Sidebar() {
                         {/* <li><a href="">Home</a></li>
                         <li><a href="">About</a></li>
                         <li><a href="">Contact</a></li> */}
-                        <li><NavLink to='/main'>Main</NavLink></li>
-                        <li><NavLink to='/users'>Users</NavLink></li>
-                        <li><NavLink to='/about'>About</NavLink></li>
-                        <li><NavLink to='/states'>States</NavLink></li>
-                        <li><NavLink to='/lifecycles'>Lifecycles</NavLink></li>
-                        <li><NavLink to='/component-test'>Functional component</NavLink></li>
                     </ul>
                     
                 </label>
             </section>
             <section>
                 <h2>Menu</h2>
-                <nav>
-                    {/* <div><a>Profile</a></div>
+                <nav className="nav-menu">
+                    <div><a>Profile</a></div>
                     <div><a>Messages</a></div>
                     <div><a>Content</a></div>
-                    <div><a>Settings</a></div> */}
+                    <div><a>Settings</a></div>
                     {/* <div></div>
                     <div></div>
                     <div></div> */}
