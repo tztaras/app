@@ -17,6 +17,7 @@ function Sidebar() {
     let task4 = React.createRef();
     let task4Out = React.createRef();
     const [output, setOutput] = useState('hello');
+    const [isActive, setIsActive] = useState(false);
     
     function f1(number) {
         console.log('f1 '+ number);
@@ -44,9 +45,12 @@ function Sidebar() {
         console.log(sd);
     }
 
-    // function task3{
-    //     text
-    // }
+    function toggleActive(){
+        setIsActive(!isActive);
+    }
+
+
+    
     return (
         <div className="sidebar">
 
@@ -68,9 +72,9 @@ function Sidebar() {
                 <h2>Menu</h2>
                 <nav className={css.menu}>
                     <div className={css.item}><a>Profile</a></div>
-                    <div className={`${css.item} ${css.active}`}><a>Messages</a></div>
-                    <div className={css.item}><a>Content</a></div>
-                    <div className={css.item}><a>Settings</a></div>
+                    <div className={css.item}><a>Messages</a></div>
+                    <div className={css.item} ><a>Content</a></div>
+                    <div className={`${css.item} ${css.active}`}><a>Settings</a></div>
                     
                     
                     {/* <div></div>

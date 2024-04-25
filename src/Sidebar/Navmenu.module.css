@@ -18,20 +18,21 @@
 
 .item {
     text-shadow: 0 0 6px cadetblue;
+    transition: text-shadow 1s;
 
     /* background-color: blueviolet; */
 }
 
 .item:hover {
-    text-shadow: 0 0 10px rgb(109, 209, 212);
+    /* text-shadow: 0 0 6px rgb(109, 209, 212); */
     cursor: pointer;
 }
 
 .item:active {
-    text-shadow: 0 0 10px rgb(125, 241, 245);
+    text-shadow: 0 0 6px rgb(161, 245, 7);
 }
 
-/* .active {
-    color: seagreen;
-    text-shadow: 0 0 6px rgb(143, 212, 14);
-} */
+.active {
+
+    text-shadow: 0 0 10px rgb(161, 245, 7);
+}
