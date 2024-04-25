@@ -38,16 +38,17 @@ a {
 }
 
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 6px;
 
-    /* background: var(--basedbackground); */
+    background: aliceblue;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(0, 0, 0);
+    background: rgba(167, 167, 167, 0.452);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(43, 74, 78);
+
+    background: rgb(167, 167, 167);
 
 }
