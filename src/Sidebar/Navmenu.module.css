@@ -11,4 +11,27 @@
     line-height: 1.2;
     color: brown;
 
+    /* text-shadow: 0 0 6px rgb(3, 8, 14); */
+
+
 }
+
+.item {
+    text-shadow: 0 0 6px cadetblue;
+
+    /* background-color: blueviolet; */
+}
+
+.item:hover {
+    text-shadow: 0 0 10px rgb(109, 209, 212);
+    cursor: pointer;
+}
+
+.item:active {
+    text-shadow: 0 0 10px rgb(125, 241, 245);
+}
+
+/* .active {
+    color: seagreen;
+    text-shadow: 0 0 6px rgb(143, 212, 14);
+} */

@@ -67,10 +67,12 @@ function Sidebar() {
             <section>
                 <h2>Menu</h2>
                 <nav className={css.menu}>
-                    <div><a>Profile</a></div>
-                    <div><a>Messages</a></div>
-                    <div><a>Content</a></div>
-                    <div><a>Settings</a></div>
+                    <div className={css.item}><a>Profile</a></div>
+                    <div className={`${css.item} ${css.active}`}><a>Messages</a></div>
+                    <div className={css.item}><a>Content</a></div>
+                    <div className={css.item}><a>Settings</a></div>
+                    
+                    
                     {/* <div></div>
                     <div></div>
                     <div></div> */}
