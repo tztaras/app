@@ -52,7 +52,6 @@ class Lifecycle extends React.Component {
 
     componentDidMount() {
         console.log('component did mount');
-        alert('componentDidMount() This method is commonly used to perform actions that require interaction with the DOM or external data fetching, such as initializing JavaScript libraries, making API requests, or setting up event listeners.')
     }
     // This method is commonly used to perform actions that require interaction with the DOM or external data fetching, such as initializing JavaScript libraries, making API requests, or setting up event listeners.
 
