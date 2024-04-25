@@ -1,4 +1,5 @@
 import './Sidebar.css';
+import css from './Navmenu.module.css';
 import links from '../data/articles.json';
 import dogs from '../data/dogs.json';
 import React from 'react';
@@ -65,7 +66,7 @@ function Sidebar() {
             </section>
             <section>
                 <h2>Menu</h2>
-                <nav className="nav-menu">
+                <nav className={css.menu}>
                     <div><a>Profile</a></div>
                     <div><a>Messages</a></div>
                     <div><a>Content</a></div>
