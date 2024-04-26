@@ -1,6 +1,6 @@
 import Header from '../Header/Header';
 import Users from '../Users/Users';
-import UsersID from '../Users/UsersID';
+import UsersID from '../Users/UsersID/UsersID';
 import About from '../About/About';
 import Main from '../Main/Main';
 import Sidebar from '../Sidebar/Sidebar';

@@ -1,7 +1,8 @@
 
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import './Users.css';
+import css from "./Usersid.module.css";
+
 
 function UsersID() {
     let { userName } = useParams();
