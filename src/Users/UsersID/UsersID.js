@@ -18,6 +18,10 @@ function UsersID() {
                     {/* SPA */}
                 <Link to="/users"><h2>Back</h2></Link>  
                 <h1>User: {userName}</h1>
+                <div className={css.avatar}> 
+                    <span>place for avatar</span>
+                    <img src="" alt="" />
+                </div>
             </section>
         </div>
     )

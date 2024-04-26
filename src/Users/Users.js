@@ -30,8 +30,11 @@ function Users() {
 
                     <li><NavLink to={`${url.pathname}/ivanovskyi`} >Ivanovskyi</NavLink></li>
                     <li><NavLink to={`${url.pathname}/petrovskyi`} >Petrovskyi</NavLink></li>
-                    <li><NavLink to={`${url.pathname}/dmytrovskyi`} >Dmytrovskyi</NavLink></li>
+                    <li><NavLink to={`${url.pathname}/dmytrovskyi`} >Dmytrovskyi <UsersID/></NavLink></li>
+                    <UsersID/>
+                    <UsersID/>
                 </ul>
+                <UsersID/>
             </section>
         </div>
     )
