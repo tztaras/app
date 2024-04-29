@@ -1,5 +1,5 @@
 .comment {
-    background-color: bisque;
+    background-color: rgb(230, 230, 230);
     width: 80%;
     padding: 10px 15px;
     margin: 10px auto;
@@ -7,7 +7,7 @@
 }
 
 .text {
-    color: rgb(160, 73, 16);
+    color: rgb(87, 87, 87);
 
     margin: 0;
 }
