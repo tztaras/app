@@ -3,10 +3,11 @@ import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import css from "./Usersid.module.css";
 import Comment from "./Comment";
+import React from "react";
 
 
 
-function UsersID() {
+const UsersID = ()=> {
     let { userName } = useParams();
     return (
         <div className="aboutUsers">
@@ -24,9 +25,9 @@ function UsersID() {
                     <div>place for avatar</div>
                     <div>place for motto</div>
                     <span>KUDOS</span>
-                    <Comment/>
-                    <Comment/>
-                    <Comment/>
+                    <Comment message='Lorem?'/>
+                    <Comment message='Ipsum...'/>
+                    <Comment message='Dolor!'/>
 
 
                     <img src="" alt="" />

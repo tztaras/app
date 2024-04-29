@@ -57,8 +57,8 @@ function Sidebar() {
             <section>
                 <label>
                     <input id="ham-menu" type="checkbox" name="" />
-                    <span class="menu">
-                        <span class="hamburger"></span>
+                    <span className="menu">
+                        <span className="hamburger"></span>
                     </span>
                     <ul>
                         {/* <li><a href="">Home</a></li>
