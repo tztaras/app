@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import './Users.css';
 import UsersID from './UsersID/UsersID';
+// import Comment from './UsersID/Comment';
 
 function Users() {
     let url = useLocation();
@@ -30,9 +31,8 @@ function Users() {
 
                     <li><NavLink to={`${url.pathname}/ivanovskyi`} >Ivanovskyi</NavLink></li>
                     <li><NavLink to={`${url.pathname}/petrovskyi`} >Petrovskyi</NavLink></li>
-                    <li><NavLink to={`${url.pathname}/dmytrovskyi`} >Dmytrovskyi <UsersID/></NavLink></li>
-                    <UsersID/>
-                    <UsersID/>
+                    <li><NavLink to={`${url.pathname}/dmytrovskyi`} >Dmytrovskyi </NavLink></li>
+        
                 </ul>
                 <UsersID/>
             </section>

@@ -2,6 +2,8 @@
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import css from "./Usersid.module.css";
+import Comment from "./Comment";
+
 
 
 function UsersID() {
@@ -18,8 +20,15 @@ function UsersID() {
                     {/* SPA */}
                 <Link to="/users"><h2>Back</h2></Link>  
                 <h1>User: {userName}</h1>
-                <div className={css.avatar}> 
-                    <span>place for avatar</span>
+                <div className={css.userInfo}> 
+                    <div>place for avatar</div>
+                    <div>place for motto</div>
+                    <span>KUDOS</span>
+                    <Comment/>
+                    <Comment/>
+                    <Comment/>
+
+
                     <img src="" alt="" />
                 </div>
             </section>
