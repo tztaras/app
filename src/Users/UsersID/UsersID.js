@@ -25,7 +25,7 @@ const UsersID = ()=> {
                     <div>place for avatar</div>
                     <div>place for motto</div>
                     <span>KUDOS</span>
-                    <button>&#128077;</button><hr/>
+                    <button className={css.like}>+&#128077;+ </button><hr/>
                     <span>Comments:</span>
                     <Comment message='Lorem?'/>
                     <Comment message='Ipsum...'/>
