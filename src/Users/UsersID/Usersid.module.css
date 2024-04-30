@@ -4,6 +4,7 @@
     border: 1px double gainsboro;
     box-shadow: 0 0 8px 2px gainsboro;
     border-radius: 5px;
+    padding: 5px;
 }
 
 .like {
@@ -15,4 +16,9 @@
     background: linear-gradient(170deg, rgb(84, 228, 149) 10%, rgb(46, 128, 196) 80%);
     /* background: 170deg, cadetblue 10%, rgb(50, 139, 212) 80%; */
 
+}
+
+.likeOmeter {
+    color: rgb(13, 170, 21);
+    text-shadow: 0px 0px 3px rgb(9, 255, 0);
 }

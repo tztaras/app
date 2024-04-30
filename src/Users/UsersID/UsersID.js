@@ -3,12 +3,21 @@ import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import css from "./Usersid.module.css";
 import Comment from "./Comment";
-import React from "react";
+import React, {useRef, useState} from "react";
 
 
 
 const UsersID = ()=> {
     let { userName } = useParams();
+    const [likeOmeter, setLikeOmeter] = useState(0);
+    const likeCount = useRef();
+
+    function likeFu() {
+        const count = likeOmeter+1;
+        setLikeOmeter(count);
+        likeCount.current.innerHTML = count;
+
+    }
     return (
         <div className="aboutUsers">
             <section>
@@ -25,7 +34,11 @@ const UsersID = ()=> {
                     <div>place for avatar</div>
                     <div>place for motto</div>
                     <span>KUDOS</span>
-                    <button className={css.like}>+&#128077;+ </button><hr/>
+                    <button className={css.like} onClick={likeFu}>+&#128077;+ </button><br />
+                    <span> kudos given: </span><span ref={likeCount} className={css.likeOmeter}></span>
+                    
+                    {/* <span ref={likeCount}></span> */}
+                    <br />
                     <span>Comments:</span>
                     <Comment message='Lorem?'/>
                     <Comment message='Ipsum...'/>
