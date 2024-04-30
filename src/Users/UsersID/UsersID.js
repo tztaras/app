@@ -9,12 +9,12 @@ import React, {useRef, useState} from "react";
 
 const UsersID = ()=> {
     let { userName } = useParams();
-    const [likeOmeter, setLikeOmeter] = useState(0);
+    const [likeOmeter, setLikes] = useState(0);
     const likeCount = useRef();
 
     function likeFu() {
         const count = likeOmeter+1;
-        setLikeOmeter(count);
+        setLikes(count);
         likeCount.current.innerHTML = count;
 
     }
@@ -38,7 +38,8 @@ const UsersID = ()=> {
                     <span> kudos given: </span><span ref={likeCount} className={css.likeOmeter}></span>
                     
                     {/* <span ref={likeCount}></span> */}
-                    <br />
+                    <br /><hr/>
+
                     <span>Comments:</span>
                     <Comment message='Lorem?'/>
                     <Comment message='Ipsum...'/>

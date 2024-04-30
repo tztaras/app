@@ -11,8 +11,9 @@
     /* width: 200px; */
     padding: 5px 10px;
     margin-left: 5px;
-    border: 1px double cyan;
-    box-shadow: 0 0 1px 1px cyan;
+    /* border: 1px double cyan; */
+    border: none;
+    /* box-shadow: 0 0 1px 1px cyan; */
     background: linear-gradient(170deg, rgb(84, 228, 149) 10%, rgb(46, 128, 196) 80%);
     /* background: 170deg, cadetblue 10%, rgb(50, 139, 212) 80%; */
 
