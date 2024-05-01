@@ -35,6 +35,7 @@ a {
 .active {
     color: rgb(255, 255, 255);
     background: cadetblue;
+    transition: background 0.5s;
 }
 
 ::-webkit-scrollbar {
