@@ -36,10 +36,7 @@ const UsersID = ()=> {
                     <span>KUDOS</span>
                     <button className={css.like} onClick={likeFu}>+&#128077;+ </button><br />
                     <span> kudos given: </span><span ref={likeCount} className={css.likeOmeter}></span>
-                    
-                    {/* <span ref={likeCount}></span> */}
                     <br /><hr/>
-
                     <span>Comments:</span>
                     <Comment message='Lorem?'/>
                     <Comment message='Ipsum...'/>

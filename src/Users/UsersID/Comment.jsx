@@ -6,11 +6,7 @@ const Comment = (props) => {
     
     return (
         <div className={css.comment}>
-            
-            
-          
             <p className={css.text} style={{ fontStyle: 'italic' }} >{props.message} </p>
-            
         </div>
     )
 }
