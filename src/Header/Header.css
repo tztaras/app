@@ -8,13 +8,18 @@
     border-radius: 5px;
     box-shadow: 0px 0px 5px cyan;
     background-color: aliceblue;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
 .header-content {
     padding-left: 15px;
     padding-right: 5px;
 }
+
+.header-site-name li {
+    list-style-image: url('/public/img/atomic-li.png');
+
+}
+
 
 .header-img {
     padding-top: 5px;
