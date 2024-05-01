@@ -9,12 +9,12 @@
 }
 
 /* CAN YOU MAKE IT WIDER, PLEASE? */
-.cat-main {
+.cats_main {
     display: flex;
     justify-content: center;
 }
 
-.cat-main img {
+.cats_main img {
 
     /* THANKS */
 

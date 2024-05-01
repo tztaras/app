@@ -10,8 +10,8 @@ function Users() {
     console.log(url);
     return (
         <div className='users'>
-            <div className="cat-main">
-                <img src="./img/cat-main.jpg" alt="grey cat" />
+            <div className="cats_main">
+                <img src="./img/cats-main.jpg" alt="cats" />
             </div>
             <section>
                 
