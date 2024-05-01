@@ -26,8 +26,7 @@ const UsersID = ()=> {
 
 
                 {/* SPA */}
-                    {/* SPA */}
-                    {/* SPA */}
+
                 <Link to="/users"><h2>Back</h2></Link>  
                 <h1>User: {userName}</h1>
                 <div className={css.userInfo}> 
