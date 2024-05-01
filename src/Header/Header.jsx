@@ -18,25 +18,21 @@ function Header() {
                     <li><a href='/users'>Users</a></li>
                     <li><a href='/about'>About</a></li>
                 </ul>
-
-                
             </nav> */}
 
-
                 {/* SPA */}
                 {/* SPA */}
                 {/* SPA */}
-
-            <nav>
-                <ul>
-                    <li><NavLink to='/main'>Main</NavLink></li>
-                    <li><NavLink to='/users'>Users</NavLink></li>
-                    <li><NavLink to='/about'>About</NavLink></li>
-                    <li><NavLink to='/states'>States</NavLink></li>
-                    <li><NavLink to='/lifecycles'>Lifecycles</NavLink></li>
-                    <li><NavLink to='/component-test'>Functional component</NavLink></li>
-                </ul>
-            </nav>
+                <nav>
+                    <ul>
+                        <li><NavLink to='/main'>Main</NavLink></li>
+                        <li><NavLink to='/users'>Users</NavLink></li>
+                        <li><NavLink to='/about'>About</NavLink></li>
+                        <li><NavLink to='/states'>States</NavLink></li>
+                        <li><NavLink to='/lifecycles'>Lifecycles</NavLink></li>
+                        <li><NavLink to='/component-test'>Functional component</NavLink></li>
+                    </ul>
+                </nav>
              
 
             
