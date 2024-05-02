@@ -23,12 +23,16 @@ function Users() {
 
                     {/* SPA */}
                    
-                    <li><NavLink to={`${url.pathname}/ivanovskyi`} >Ivanovskyi</NavLink></li>
+                    {/* <li><NavLink to={`${url.pathname}/ivanovskyi`} name='Ivanovskyi' id='1'>Ivanovskyi </NavLink></li>
                     <li><NavLink to={`${url.pathname}/petrovskyi`} >Petrovskyi</NavLink></li>
-                    <li><NavLink to={`${url.pathname}/dmytrovskyi`} >Dmytrovskyi</NavLink></li>
+                    <li><NavLink to={`${url.pathname}/dmytrovskyi`} >Dmytrovskyi</NavLink></li> */}
+                    <li><UsersID name='Ivanovskyi' id='1'/></li>
+                    <li><UsersID name='Petrovskyi' id='2'/></li>
+                    <li><UsersID name='Dmytrovskyi' id='3'/></li>
+                   
         
                 </ul>
-                <UsersID/>
+                {/* <UsersID/> */}
             </section>
         </div>
     )

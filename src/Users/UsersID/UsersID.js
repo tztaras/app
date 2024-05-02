@@ -1,5 +1,5 @@
 
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import css from "./Usersid.module.css";
 import Comment from "./Comment";
@@ -7,7 +7,7 @@ import React, {useRef, useState} from "react";
 
 
 
-const UsersID = ()=> {
+const UsersID = (props)=> {
     let { userName } = useParams();
     const [likeOmeter, setLikes] = useState(0);
     const likeCount = useRef();
@@ -19,17 +19,16 @@ const UsersID = ()=> {
 
     }
     return (
-        <div className="aboutUsers">
-            <section>
-                {/* <a href="/users">Back</a>  
-                <h1>User: {userName}</h1> */}
+        <div >
+            <NavLink to={"/users/" + props.id}>{props.name}</NavLink>
+            {/* <section>
+                
 
-
-                {/* SPA */}
+                <NavLink to={"/users/" + props.id}>{props.name}</NavLink>
 
                 <Link to="/users"><h2>Back</h2></Link>  
                 <h1>User: {userName}</h1>
-                <div className={css.userInfo}> 
+                 <div className={css.userInfo}> 
                     <div>place for avatar</div>
                     <div>place for motto</div>
                     <span>KUDOS</span>
@@ -44,9 +43,11 @@ const UsersID = ()=> {
 
                     <img src="" alt="" />
                 </div>
-            </section>
+            </section> */}
         </div>
     )
 }
+
+
 
 export default UsersID;
