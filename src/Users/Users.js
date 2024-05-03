@@ -1,6 +1,7 @@
 
 import { useLocation } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
+import users from '../data/users.json';
 import './Users.css';
 import UsersID from './UsersID/UsersID';
 // import Comment from './UsersID/Comment';
@@ -30,8 +31,16 @@ function Users() {
                     <li><UsersID name='Petrovskyi' id='2'/></li>
                     <li><UsersID name='Dmytrovskyi' id='3'/></li> */}
                    
+                    {/* {users.map(u => <li key={u}>{u.name}</li>)} */}
         
                 </ul>
+                <ul>
+                    {users.map(u => (<li key={u}>
+                        <NavLink to={`${url.pathname}/${u.name}`}>{u.name}</NavLink>
+                        </li>
+                    ))}
+                </ul>
+                
                 {/* <UsersID/> */}
             </section>
         </div>
