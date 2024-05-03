@@ -19,12 +19,12 @@ const UsersID = (props)=> {
 
     }
     return (
-        <div >
-            <NavLink to={"/users/" + props.id}>{props.name}</NavLink>
-            {/* <section>
+        <div className="aboutUsers">
+            {/* <NavLink to={"/users/" + props.id}>{props.name}</NavLink> */}
+            <section>
                 
 
-                <NavLink to={"/users/" + props.id}>{props.name}</NavLink>
+                {/* <NavLink to={"/users/" + props.id}>{props.name}</NavLink> */}
 
                 <Link to="/users"><h2>Back</h2></Link>  
                 <h1>User: {userName}</h1>
@@ -43,7 +43,7 @@ const UsersID = (props)=> {
 
                     <img src="" alt="" />
                 </div>
-            </section> */}
+            </section>
         </div>
     )
 }
