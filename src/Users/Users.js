@@ -34,6 +34,8 @@ function Users() {
                     {/* {users.map(u => <li key={u}>{u.name}</li>)} */}
         
                 </ul>
+
+                {/* dynamical list of NavLinks based on an array of users. */}
                 <ul>
                     {users.map(u => (<li key={u}>
                         <NavLink to={`${url.pathname}/${u.name}`}>{u.name}</NavLink>
