@@ -18,6 +18,22 @@ const UsersID = (props)=> {
         likeCount.current.innerHTML = count;
 
     }
+
+    let commentData = [
+        {
+            id: 1,
+            message: 'Lorem?',
+        },
+        {
+            id: 2,
+            message: 'Lorem? Ipsum...',
+        },
+        {
+            id: 3,
+            message: 'Lorem? Ipsum... Dolor!',
+        }
+    ]
+
     return (
         <div className="aboutUsers">
             {/* <NavLink to={"/users/" + props.id}>{props.name}</NavLink> */}
@@ -39,6 +55,7 @@ const UsersID = (props)=> {
                     <Comment message='Lorem?'/>
                     <Comment message='Ipsum...'/>
                     <Comment message='Dolor!'/>
+                    <Comment id={commentData[2].id} message={commentData[2].message} />
 
 
                     <img src="" alt="" />
