@@ -16,5 +16,23 @@
     "name":"Dmytrovskyi",
     "avatarsrc":"",
     "motto":"In catnip we trust, all others bring treats."
+    },
+    {
+    "id":4,
+    "name":"Adelskyi",
+    "avatarsrc":"",
+    "motto":"I'm not lazy, I'm just conserving energy."
+    },
+    {
+    "id":5,
+    "name":"Dymkovskyi",
+    "avatarsrc":"",
+    "motto":"Purrfection takes time... and lots of naps."
+    },
+    {
+    "id":6,
+    "name":"Markovskyi",
+    "avatarsrc":"",
+    "motto":"Why chase mice when you can order them online?"
     }
 ]
