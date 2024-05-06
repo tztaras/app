@@ -2,6 +2,7 @@
 import { NavLink, useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import css from "./Usersid.module.css";
+import users from '../../data/users.json';
 import Comment from "./Comment";
 import React, {useRef, useState} from "react";
 
@@ -46,7 +47,13 @@ const UsersID = (props)=> {
                 <h1>User: {userName}</h1>
                  <div className={css.userInfo}> 
                     <div>place for avatar</div>
-                    <div>place for motto</div>
+                    <div>
+                        <ul>Mottos:
+                            {users.map(m => (<li key={m}><i>{m.motto}</i>
+                        </li>))}
+                    </ul>
+                        
+                    </div>
                     <span>KUDOS</span>
                     <button className={css.like} onClick={likeFu}>+&#128077;+ </button><br />
                     <span> kudos given: </span><span ref={likeCount} className={css.likeOmeter}></span>
