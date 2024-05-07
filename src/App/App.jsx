@@ -12,7 +12,6 @@ import Lifecycle from '../Lifecycles/Lifecycle';
 import Test2 from '../ComponentTest/ComponentTest';
 import './App.css';
 
-
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -24,7 +23,6 @@ function App() {
                 <Header />
                 {/* <Comp1/> */}
                 <Sidebar />
-                
                 <Routes>
                     <Route exact path="/" element={<Main />} />
                     <Route path="/main" element={<Main />} />
