@@ -49,9 +49,10 @@ const UsersID = (props)=> {
                     <div>place for avatar</div>
                     <div>
                         <ul>Mottos:
-                            {users.map(m => (<li key={m}><i>{m.motto}</i>
-                        </li>))}
-                    </ul>
+                                {users.map(m => <li key={m}><i>{m.motto}</i>
+                            </li>)}
+                        </ul>
+                        <i>{users[4].motto}</i>
                         
                     </div>
                     <span>KUDOS</span>
