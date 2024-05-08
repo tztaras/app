@@ -1,4 +1,10 @@
-.userInfo {
+.userSection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.userInfo,
+.sendMessage {
     width: 40%;
     background-color: rgb(255, 255, 255);
     border: 1px double gainsboro;

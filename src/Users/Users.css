@@ -6,7 +6,13 @@
     border-radius: 5px;
     box-shadow: 0px 0px 5px cyan;
     background-color: aliceblue;
+
 }
+
+/* .aboutUsers {
+    display: flex;
+    flex-direction: row;
+} */
 
 .cats_main {
     display: flex;

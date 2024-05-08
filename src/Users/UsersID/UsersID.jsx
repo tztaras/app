@@ -45,30 +45,32 @@ const UsersID = (props)=> {
 
                 <Link to="/users"><h2>Back</h2></Link>  
                 <h1>User: {userName}</h1>
-                 <div className={css.userInfo}> 
-                    <div>place for avatar</div>
-                    <div>
-                        <ul>Mottos:
-                                {users.map(m => <li key={m.id}><i>{m.motto}</i>
-                            </li>)}
-                        </ul>
-                        <i>{users[4].motto}</i>
-                        
+                <div className={css.userSection}>
+                    <div className={css.userInfo}> 
+                        <div>place for avatar</div>
+                        <div>
+                            <ul>Mottos:
+                                    {users.map(m => <li key={m.id}><i>{m.motto}</i>
+                                </li>)}
+                            </ul>
+                            <i>{users[4].motto}</i>
+                            
+                        </div>
+                        <span>KUDOS</span>
+                        <button className={css.like} onClick={likeFu}>+&#128077;+ </button><br />
+                        <span> kudos given: </span><span ref={likeCount} className={css.likeOmeter}></span>
+                        <br /><hr/>
+                        <span>Comments:</span>
+                        <Comment message='Lorem?'/>
+                        <Comment message='Ipsum...'/>
+                        <Comment message='Dolor!'/>
+                        <Comment id={commentData[2].id} message={commentData[2].message} />
+
+
+                        <img src="" alt="" />
                     </div>
-                    <span>KUDOS</span>
-                    <button className={css.like} onClick={likeFu}>+&#128077;+ </button><br />
-                    <span> kudos given: </span><span ref={likeCount} className={css.likeOmeter}></span>
-                    <br /><hr/>
-                    <span>Comments:</span>
-                    <Comment message='Lorem?'/>
-                    <Comment message='Ipsum...'/>
-                    <Comment message='Dolor!'/>
-                    <Comment id={commentData[2].id} message={commentData[2].message} />
-
-
-                    <img src="" alt="" />
+                    <div className={css.sendMessage}><h2>send messsage</h2></div>
                 </div>
-                <div className={css.userInfo}><h2>send messsage</h2></div>
             </section>
             
         </div>
