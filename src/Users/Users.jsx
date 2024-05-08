@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 // import users from '../data/users.json';
 import users from '../data/users.json';
 import './Users.css';
-import UsersID from './UsersID/UsersID';
+// import UsersID from './UsersID/UsersID';
 // import Comment from './UsersID/Comment';
 
 function Users() {
@@ -28,6 +28,9 @@ function Users() {
                     <li><NavLink to={`${url.pathname}/ivanovskyi`} name='Ivanovskyi' id='1'>Ivanovskyi </NavLink></li>
                     <li><NavLink to={`${url.pathname}/petrovskyi`} >Petrovskyi</NavLink></li>
                     <li><NavLink to={`${url.pathname}/dmytrovskyi`} >Dmytrovskyi</NavLink></li>
+                    
+                    
+                    
                     {/* <li><UsersID name='Ivanovskyi' id='1'/></li>
                     <li><UsersID name='Petrovskyi' id='2'/></li>
                     <li><UsersID name='Dmytrovskyi' id='3'/></li> */}
@@ -38,10 +41,10 @@ function Users() {
 
                 {/* dynamical list of NavLinks based on an array of users. */}
                 <ul>
-                    {users.map(u => (<li key={u}>
+                    {users.map(u => <li key={u.id}>
                         <NavLink to={`${url.pathname}/${u.name}`}>{u.name}</NavLink>
                         </li>
-                    ))}
+                    )}
                 </ul>
                 
                 {/* <UsersID/> */}
