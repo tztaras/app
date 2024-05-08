@@ -1,7 +1,6 @@
 import './Header.css';
 import { NavLink } from 'react-router-dom';
 
-
 function Header() {
     return (
         <div className='header-site-name'>
@@ -33,9 +32,6 @@ function Header() {
                         <li><NavLink to='/component-test'>Functional component</NavLink></li>
                     </ul>
                 </nav>
-             
-
-            
         </div>
     )
 }

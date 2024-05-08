@@ -119,9 +119,9 @@ function Sidebar() {
                         <li key={item.id}>
                             <a href={item.hlink}>{item.title}</a>
                         </li>)}
-                    {dogs.map(item =>
-                        <li key={item.id}>
-                            <a href={item.picture}>{item.title}</a>
+                    {dogs.map(dog =>
+                        <li key={dog.id}>
+                            <a href={dog.picture}>{dog.title}</a>
                             {/* <p>{item.description}</p> */}
                         </li>)}
                 </ul>

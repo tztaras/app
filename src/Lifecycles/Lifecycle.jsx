@@ -1,7 +1,6 @@
 import React from "react";
 import '../Lifecycles/Lifecycles.css';
 
-
 class Lifecycle extends React.Component {
 
     constructor(props) {

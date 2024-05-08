@@ -2,8 +2,6 @@ import './Main.css';
 import articles from '../data/articles.json';
 console.log(articles);
 
-
-
 function Main() {
 
     let q = 3;
@@ -54,17 +52,15 @@ function Main() {
                
             </section>
 
-            {/* {articles.map(item => <h2 key={item}>{item.title}</h2>)} */}
+                {/* {articles.map(item => <h2 key={item}>{item.title}</h2>)} */}
             {articles.map(cont =>
                 <section key={cont.id}>
+                    
                     <h3>{cont.title}</h3>
                     <p>{cont.body}</p>
                     <a data='qwerty' href={cont.hlink}>{cont.title}</a>
 
                 </section>)}
-            
-            
-            
         </div> 
     )
 }
