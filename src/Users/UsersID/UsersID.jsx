@@ -68,7 +68,9 @@ const UsersID = (props)=> {
 
                     <img src="" alt="" />
                 </div>
+                <div className={css.userInfo}><h2>send messsage</h2></div>
             </section>
+            
         </div>
     )
 }
