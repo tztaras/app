@@ -1,16 +1,27 @@
-.userSection {
+.userWrapper {
     display: flex;
     justify-content: space-evenly;
 }
 
 .userInfo,
 .sendMessage {
-    width: 40%;
+    width: 45%;
     background-color: rgb(255, 255, 255);
     border: 1px double gainsboro;
     box-shadow: 0 0 8px 2px rgb(141, 141, 141);
     border-radius: 5px;
     padding: 5px;
+}
+
+.sendMessage {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.messageArea {
+    background-color: aliceblue;
+    border-radius: 5px;
 }
 
 .like {

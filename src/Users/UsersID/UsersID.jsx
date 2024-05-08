@@ -45,7 +45,7 @@ const UsersID = (props)=> {
 
                 <Link to="/users"><h2>Back</h2></Link>  
                 <h1>User: {userName}</h1>
-                <div className={css.userSection}>
+                <div className={css.userWrapper}>
                     <div className={css.userInfo}> 
                         <div>place for avatar</div>
                         <div>
@@ -69,7 +69,12 @@ const UsersID = (props)=> {
 
                         <img src="" alt="" />
                     </div>
-                    <div className={css.sendMessage}><h2>send messsage</h2></div>
+                    <div className={css.sendMessage}>
+                        <h2>send messsage</h2>
+                        <label htmlFor="message">Send your message here:</label>
+                        <textarea className={css.messageArea} name="name" id="message"></textarea>
+                        <button>SEND</button>
+                    </div>
                 </div>
             </section>
             
