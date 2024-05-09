@@ -22,7 +22,9 @@ const UsersID = (props)=> {
     }
 
     function sendMessage() {
-        alert('SENT');
+        
+        let sent = newMessage.current.value;
+        alert(sent);
     }
 
     let commentData = [
