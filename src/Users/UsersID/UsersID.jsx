@@ -89,6 +89,8 @@ const UsersID = (props)=> {
                         <textarea className={css.messageArea} name="name" id="message" ref={newMessage}></textarea>
                         <button onClick={(sendMessage)}>SEND</button>
                         <p>{message}</p>
+                        <p ref={messageSent}></p>
+                        
                    
                     </div>
                 </div>
