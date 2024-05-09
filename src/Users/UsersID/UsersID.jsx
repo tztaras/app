@@ -73,7 +73,7 @@ const UsersID = (props)=> {
                         <h2>send messsage</h2>
                         <label htmlFor="message">Send your message here:</label>
                         <textarea className={css.messageArea} name="name" id="message"></textarea>
-                        <button>SEND</button>
+                        <button onClick={()=>alert('SENT')}>SEND</button>
                     </div>
                 </div>
             </section>
