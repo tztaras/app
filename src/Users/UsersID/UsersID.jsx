@@ -35,6 +35,10 @@ const UsersID = (props)=> {
         }
     ]
 
+    function sendMessage() {
+        alert('SENT');
+    }
+
     return (
         <div className="aboutUsers">
             {/* <NavLink to={"/users/" + props.id}>{props.name}</NavLink> */}
@@ -73,7 +77,7 @@ const UsersID = (props)=> {
                         <h2>send messsage</h2>
                         <label htmlFor="message">Send your message here:</label>
                         <textarea className={css.messageArea} name="name" id="message"></textarea>
-                        <button onClick={()=>alert('SENT')}>SEND</button>
+                        <button onClick={(sendMessage)}>SEND</button>
                     </div>
                 </div>
             </section>
