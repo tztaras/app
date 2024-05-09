@@ -13,6 +13,7 @@ const UsersID = (props)=> {
     const [likeOmeter, setLikes] = useState(0);
     const likeCount = useRef();
     let newMessage = React.createRef();
+    let messageSent = React.createRef();
     const [message, setMessage] = useState();
 
     function likeFu() {
@@ -30,6 +31,7 @@ const UsersID = (props)=> {
         let sent = newMessage.current.value;
         setMessage(sent);
         alert(sent);
+        messageSent.current.innerHTML = sent;
     }
 
     let commentData = [
@@ -87,7 +89,7 @@ const UsersID = (props)=> {
                         <textarea className={css.messageArea} name="name" id="message" ref={newMessage}></textarea>
                         <button onClick={(sendMessage)}>SEND</button>
                         <p>{message}</p>
-                        <Comment>{message}</Comment>
+                   
                     </div>
                 </div>
             </section>
