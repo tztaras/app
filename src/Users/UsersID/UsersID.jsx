@@ -20,6 +20,10 @@ const UsersID = (props)=> {
 
     }
 
+    function sendMessage() {
+        alert('SENT');
+    }
+
     let commentData = [
         {
             id: 1,
@@ -34,10 +38,6 @@ const UsersID = (props)=> {
             message: 'Lorem? Ipsum... Dolor!',
         }
     ]
-
-    function sendMessage() {
-        alert('SENT');
-    }
 
     return (
         <div className="aboutUsers">
