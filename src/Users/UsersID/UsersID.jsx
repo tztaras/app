@@ -61,20 +61,23 @@ const UsersID = (props)=> {
                 <h1>User: {userName}</h1>
                 <div className={css.userWrapper}>
                     <div className={css.userInfo}> 
-                        <div>place for avatar</div>
-                        <div>
-                            <ul>Mottos:
-                                    {users.map(m => <li key={m.id}><i>{m.motto}</i>
-                                </li>)}
-                            </ul>
-                            <i>{users[4].motto}</i>
-                            
+                        <div className={css.block}>
+                            <div>place for avatar</div>
+                                <div>
+                                    <ul>Mottos:
+                                            {users.map(m => <li key={m.id}><i>{m.motto}</i>
+                                        </li>)}
+                                    </ul>
+                                    <i>{users[4].motto}</i>
+                                    
+                                </div>
+                                <span>KUDOS</span>
+                                <button className={css.like} onClick={likeFu}>+&#128077;+ </button><br />
+                            <span> kudos given: </span><span ref={likeCount} className={css.likeOmeter}></span>
+                            <hr />
+                            <span>Comments:</span>
                         </div>
-                        <span>KUDOS</span>
-                        <button className={css.like} onClick={likeFu}>+&#128077;+ </button><br />
-                        <span> kudos given: </span><span ref={likeCount} className={css.likeOmeter}></span>
-                        <br /><hr/>
-                        <span>Comments:</span>
+                        {/* <br /> */}
                         <Comment message='Lorem?'/>
                         <Comment message='Ipsum...'/>
                         <Comment message='Dolor!'/>
@@ -84,13 +87,14 @@ const UsersID = (props)=> {
                         <img src="" alt="" />
                     </div>
                     <div className={css.sendMessage}>
-                        <h2>send messsage</h2>
-                        <label htmlFor="message" >Send your message here:</label>
-                        <textarea className={css.messageArea} name="name" id="message" ref={newMessage}></textarea>
-                        <button onClick={(sendMessage)}>SEND</button>
-                        <div>{message}</div>
-                        <span ref={messageSent}></span>
-                        
+                        <div className={css.block}>
+                            <h2>send messsage</h2>
+                            <label htmlFor="message" >Send your message here:</label>
+                            <textarea className={css.messageArea} name="name" id="message" ref={newMessage} ></textarea>
+                            <button onClick={(sendMessage)}>SEND</button>
+                            <div>{message}</div>
+                            <span ref={messageSent}></span>
+                        </div>
 
                    
                     </div>

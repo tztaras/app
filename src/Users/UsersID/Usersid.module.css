@@ -17,6 +17,15 @@
     display: flex;
     flex-direction: column;
     height: fit-content;
+    /* padding: 0 15px; */
+}
+
+.block {
+    padding: 0 10px 10px 10px;
+}
+
+.sendMessage textarea {
+    width: 95%;
 }
 
 .messageArea {
