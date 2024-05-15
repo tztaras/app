@@ -84,7 +84,7 @@ const UsersID = (props)=> {
                         <Comment id={commentData[2].id} message={commentData[2].message} />
 
 
-                        <img src="" alt="" />
+                        
                     </div>
                     <div className={css.sendMessage}>
                         <div className={css.block}>
