@@ -1,5 +1,7 @@
 catching up
-REACT.JS LEARNING
+**REACT.JS LEARNING**
+
+_**--- implementing dropdown menu**_
 
 component in component
 
