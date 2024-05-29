@@ -20,8 +20,7 @@ function Users() {
                 <h1>Users</h1>
                 <ul>
                     {/* <li><a href="/users/ivanovskyi">Ivanovskyi</a></li>  */}
-                    {/* <li><a href="/users/petrovskyi">Petrovskyi</a></li>
-                    <li><a href="/users/dmytrovskyi">Dmytrovskyi</a></li> */}
+                  
 
                     {/* SPA */}
                    
